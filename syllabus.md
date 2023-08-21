@@ -25,7 +25,7 @@ published: true
 * **Office:** Stanley Thomas Hall ([Building 10](https://admission.tulane.edu/map)), Room 305B 
 * **Office Hours:** **TBD** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/)
 
-* ### Teaching Assistants
+### Teaching Assistants
 * N/A, no assistants this academic year.
 
 ## Course Communication Policy
