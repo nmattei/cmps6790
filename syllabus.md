@@ -118,7 +118,7 @@ Throughout the semester we will regularly complete short in class exercises such
 ### Labs
 The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted.**
 
-## Projects
+### Projects
 There will be 3 "mini-projects" assigned over the course of the semester (plus one simple setup assignment that will walk you through using git, Docker, and Jupyter). The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted.**
 
 ### Test 1 and Test 2
@@ -135,7 +135,6 @@ In the interest of building students' public portfolios, and in the spirit of "l
 **A complete version of the assignment as well as all the past assignments can be found at the [Final Tutorial Page](/_projects/FinalTutorial.md).**
 
 ### Additional Work for Graduate Students
-
 Graduate students who enroll in this course will be required to complete their final project/tutorial as an individual.
 
 ## Policies Related to Turning in Work
