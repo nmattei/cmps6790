@@ -119,7 +119,7 @@ Throughout the semester we will regularly complete short in class exercises such
 The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted.**
 
 ### Projects
-There will be 3 "mini-projects" assigned over the course of the semester (plus one simple setup assignment that will walk you through using git, Docker, and Jupyter). The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted.**
+There will be 3 "mini-projects" assigned over the course of the semester (plus one simple setup assignment that will walk you through using git, Docker, and Jupyter). The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted unless a late token is used, see below.**
 
 ### Test 1 and Test 2
 This will be a written, close book, in class exam.  You are allowed one **hand-written** cheat sheet, front and back, 8.5x11 inch paper.  You will be required to turn in this cheat sheet **with** the actual exam and it will be graded for completeness and neatness. Test 2 is cumulative.  This semester both exams will take place in person. **You must earn at least a 60% average between the two exams to pass the course.**
@@ -143,6 +143,9 @@ Graduate students who enroll in this course will be required to complete their f
 
 ### Late Work Policy
 All work must be turned in on time unless explicit consent for outstanding circumstances is given beforehand (or in the case of illness, with a documented absence after).  **Any late work without prior authorization will not be accepted and count as a 0.**
+
+### Late Tokens
+At the start of this semester you each are holding **3 late tokens** which can be redeemed at any time for **projects or readings only, they may not be used for milestones or labs**.  Each token is worth one additional day, to use at your discretion.  These tokens have no cash value but are worth 0.5% of your total grade at the end of the semester.  Note that you cannot use a late token if lab solutions have already been presented in class.
 
 ### Final Grade Policy
 The weighted average will determine your letter grade roughly as follows, +/- grades will be given for borderline cases.
