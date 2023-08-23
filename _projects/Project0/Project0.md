@@ -7,8 +7,8 @@ published: true
 
 # Project 0: Computing Environment
 
-**Posted:** August 23, 2023
-**Last Revision:** August 23,2023
+* **Posted:** August 23, 2023
+* **Last Revision:** August 23,2023
 
 Over the course of the semester, you will work with a variety of software packages, including Python, Pandas, Jupyter Notebook, and others. Installing those packages and getting started can often be a hassle because of software dependencies.  *However, maintaining your environment is an integral part of your job as a data scientist so you'll need to get used to it!  Luckily Docker makes this really easy and also allows you to share runnable code and increase reproducibility!*
 
