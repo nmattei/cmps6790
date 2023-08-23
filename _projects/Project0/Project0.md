@@ -48,18 +48,18 @@ To do this you need to follow these steps:
 
 1. Create an account on Github: https://github.com
 2. Generate and associate an SSH key with your account
-    a. [Instructions to generate SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-        - Make sure to remember the passphrase or leave it blank (less secure).
-    b. Go to your [GitHub Profile](https://github.com/settings/profile), and find the add SSH Keys link.
-    c. Add your SSH Keys which can be found following the above tutorial on generating your SSH keys.
-3. Clone the class repository:
+    - [Instructions to generate SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+    - Make sure to remember the passphrase or leave it blank (less secure).
+    - Go to your [GitHub Profile](https://github.com/settings/profile), and find the add SSH Keys link.
+    - Add your SSH Keys which can be found following the above tutorial on generating your SSH keys.
+4. Clone the class repository:
     a. In Terminal: `git clone git@github.com:nmattei/cmps6790.git`
     b. The master branch should be checked out in a new directory 
-4. Familiarize yourself with the basic git commands.
+5. Familiarize yourself with the basic git commands.
     a. At a minimum, you would need to know: `clone`, `add`, `commit`, `push`, `pull`, `status`.
     b. But you should also be familiar with how to use **branches** (we will discuss these in class).
-5. You can't push to the main class repository, but feel free to do *pull requests* on the main class repository if you spot any errors or if you think something could be improved.
-6. **Important Note!!** I strongly suggest doing your work in another location on your local machine or even private git repository. If I make updates to the course git and you need to `git pull` again, and you have edited the files locally, you will have to `stash` your changes or you'll have lots of conflicts!
+6. You can't push to the main class repository, but feel free to do *pull requests* on the main class repository if you spot any errors or if you think something could be improved.
+7. **Important Note!!** I strongly suggest doing your work in another location on your local machine or even private git repository. If I make updates to the course git and you need to `git pull` again, and you have edited the files locally, you will have to `stash` your changes or you'll have lots of conflicts!
 
 **HINT HINT:** Pay attention to where in your computer you are cloning the directory.  We are going to need this later.  On Mac/Linux you can use the command `pwd` from the command line to see what the `PATH` is to your current directory.  For example, mine says `/Users/nsmattei/repo/teaching/cmps6790`.
 
