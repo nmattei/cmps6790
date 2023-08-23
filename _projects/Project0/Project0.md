@@ -48,18 +48,18 @@ To do this you need to follow these steps:
 
 1. Create an account on Github: https://github.com
 2. Generate and associate an SSH key with your account
-    - [Instructions to generate SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-    - Make sure to remember the passphrase or leave it blank (less secure).
-    - Go to your [GitHub Profile](https://github.com/settings/profile), and find the add SSH Keys link.
-    - Add your SSH Keys which can be found following the above tutorial on generating your SSH keys.
-4. Clone the class repository:
-    a. In Terminal: `git clone git@github.com:nmattei/cmps6790.git`
-    b. The master branch should be checked out in a new directory 
-5. Familiarize yourself with the basic git commands.
-    a. At a minimum, you would need to know: `clone`, `add`, `commit`, `push`, `pull`, `status`.
-    b. But you should also be familiar with how to use **branches** (we will discuss these in class).
-6. You can't push to the main class repository, but feel free to do *pull requests* on the main class repository if you spot any errors or if you think something could be improved.
-7. **Important Note!!** I strongly suggest doing your work in another location on your local machine or even private git repository. If I make updates to the course git and you need to `git pull` again, and you have edited the files locally, you will have to `stash` your changes or you'll have lots of conflicts!
+    * [Instructions to generate SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+    * Make sure to remember the passphrase or leave it blank (less secure).
+    * Go to your [GitHub Profile](https://github.com/settings/profile), and find the add SSH Keys link.
+    * Add your SSH Keys which can be found following the above tutorial on generating your SSH keys.
+3. Clone the class repository:
+    * In Terminal: `git clone git@github.com:nmattei/cmps6790.git`
+    * The master branch should be checked out in a new directory 
+4. Familiarize yourself with the basic git commands.
+    * At a minimum, you would need to know: `clone`, `add`, `commit`, `push`, `pull`, `status`.
+    * But you should also be familiar with how to use **branches** (we will discuss these in class).
+5. You can't push to the main class repository, but feel free to do *pull requests* on the main class repository if you spot any errors or if you think something could be improved.
+6. **Important Note!!** I strongly suggest doing your work in another location on your local machine or even private git repository. If I make updates to the course git and you need to `git pull` again, and you have edited the files locally, you will have to `stash` your changes or you'll have lots of conflicts!
 
 **HINT HINT:** Pay attention to where in your computer you are cloning the directory.  We are going to need this later.  On Mac/Linux you can use the command `pwd` from the command line to see what the `PATH` is to your current directory.  For example, mine says `/Users/nsmattei/repo/teaching/cmps6790`.
 
@@ -77,16 +77,16 @@ To install Docker Desktop you should do the following.
 
 1. To get started, install Docker Desktop (note, not Docker Engine!) by following the instructions on the [webpage for your machine type](https://docs.docker.com/get-docker/).
 2. Follow the appropriate `Getting Started` guide to make sure that Docker is working as expected.
-  a. [For a Mac](https://docs.docker.com/desktop/install/mac-install/)
-  b. [Windows](https://docs.docker.com/desktop/install/windows-install/)
-  c. **Note:** If you have Windows 10 Home you need to use [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/) which you can find the installation instructions for here: .  If you are having trouble mounting your filesystem in Docker Toolbox for Windows please go over [this troubleshooting guide](https://medium.com/@Charles_Stover/fixing-volumes-in-docker-toolbox-4ad5ace0e572).
-  d. **Note:** On Windows if you get the error *Error: invalid reference format: repository name must be lowercase.* then this means that you need to change the `PATH` below to not have any spaces. This may involve moving the folder you want to map.
-  e. We will use the [Jupyter Notebook Data Science Stack](https://hub.docker.com/r/jupyter/datascience-notebook/) to get started in this class. You can start it using the following command in the command line -- **replace PATH with the path to where you have saved or checked out the git repository on your machine!** if you do not do this your `notebook` folder on the Docker image will be empty. More detailed description of the image is available at the [Jupyter Notebook Data Science Stack Hub Page](https://hub.docker.com/r/jupyter/datascience-notebook/).
+    * [For a Mac](https://docs.docker.com/desktop/install/mac-install/)
+    * [Windows](https://docs.docker.com/desktop/install/windows-install/)
+    * **Note:** If you have Windows 10 Home you need to use [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/) which you can find the installation instructions for here: .  If you are having trouble mounting your filesystem in Docker Toolbox for Windows please go over [this troubleshooting guide](https://medium.com/@Charles_Stover/fixing-volumes-in-docker-toolbox-4ad5ace0e572).
+    * **Note:** On Windows if you get the error *Error: invalid reference format: repository name must be lowercase.* then this means that you need to change the `PATH` below to not have any spaces. This may involve moving the folder you want to map.
+    * We will use the [Jupyter Notebook Data Science Stack](https://hub.docker.com/r/jupyter/datascience-notebook/) to get started in this class. You can start it using the following command in the command line -- **replace PATH with the path to where you have saved or checked out the git repository on your machine!** if you do not do this your `notebook` folder on the Docker image will be empty. More detailed description of the image is available at the [Jupyter Notebook Data Science Stack Hub Page](https://hub.docker.com/r/jupyter/datascience-notebook/).
 3. Run this command: `docker run -it -v PATH/:/home/jovyan/notebooks --rm -p 8888:8888 jupyter/datascience-notebook`
-  a. Quick explanation of the above command (don't worry if you don't follow this right now):
-  b. `-p 8888:8888` maps the 8888 port on the host OS to the 8888 port on the guest container. So if you were to go to http://localhost:8888, it will redirect to the 8888 port on the container - Jupyter Notebook starts a web server on that port on the guest.
-  c. `-v PATH/:/home/jovyan/notebooks` mounts the directory described by the `PATH` so that everything in that directory will be available in `notebooks` directory on the guest.  **Please check the hint above when you cloned the directory to find out what you need to change the PATH to!**
-  d. `jupyter/datascience-notebook` tells docker which image to pull from the Docker Hub. The first time you do this, it will take a few minutes (go grab a drink) to download everything it needs.  **Note that the download is several gigs so you will want to be on a fast, i.e., school, network if possible.**
+    * Quick explanation of the above command (don't worry if you don't follow this right now):
+    * `-p 8888:8888` maps the 8888 port on the host OS to the 8888 port on the guest container. So if you were to go to http://localhost:8888, it will redirect to the 8888 port on the container - Jupyter Notebook starts a web server on that port on the guest.
+    * `-v PATH/:/home/jovyan/notebooks` mounts the directory described by the `PATH` so that everything in that directory will be available in `notebooks` directory on the guest.  **Please check the hint above when you cloned the directory to find out what you need to change the PATH to!**
+    * `jupyter/datascience-notebook` tells docker which image to pull from the Docker Hub. The first time you do this, it will take a few minutes (go grab a drink) to download everything it needs.  **Note that the download is several gigs so you will want to be on a fast, i.e., school, network if possible.**
 4. Once everything is initialized and the notebook starts, you can connect it to by opening your web browser and going to: `http://localhost:8888/tree?token=279fb5e0fc0f240a90f913e7b9c9c068f36543a7d9544663`  --- the `token` will be different for you. Look for it in the output of the command above.
 
 Some other trouble shooting notes for Docker:
@@ -112,7 +112,7 @@ Use the command listed above to start a docker container with Jupyter. On your l
 
 ## Assignment
 
-Follow the  `Project0` Notebook, and upload the `Project0.ipynb` file to Canvas.
+Follow the  `Project0` Notebook, and upload the `Project0.ipynb` file to Canvas. You can navigate to the [projects folder on GitHub if you want to see the file layout](https://github.com/nmattei/cmps6790/tree/main/_projects).
 
 ### Grading Rubric
 
