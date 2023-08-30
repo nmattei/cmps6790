@@ -25,7 +25,9 @@ published: true
 
 * **Instructor:** Dr. Nicholas Mattei, <nsmattei@tulane.edu>
 * **Office:** Stanley Thomas Hall ([Building 10](https://admission.tulane.edu/map)), Room 305B 
-* **Office Hours:** **Monday 3-4** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/)
+* **Office Hours:** Office hours can be attended in person at STH 305B or online unless otherwise announced in class.
+  * Monday 1500-1600, [Monday Zoom Link](https://tulane.zoom.us/j/96923427576)
+  * Thursdays 1050 - 1200, [Thursday Zoom Link](https://tulane.zoom.us/j/99496817630)
 
 ### Teaching Assistants
 
