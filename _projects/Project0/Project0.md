@@ -116,7 +116,7 @@ Follow the  `Project0` Notebook, and upload the `Project0.ipynb` file to Canvas.
 
 ### Grading Rubric
 
-* (5 Points) *Professionalism*: You have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
+* (5 Points) *Professionalism*: You have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them within the code or paper.
 * (5 Points) *Visiting Office Hours*: You have visited office hours of at least one instructor of this course *before the assignment is due!*.
 * (5 Points): *Docker Setup*: The project runs on the correct Docker image and the environment is setup correctly.
 * (5 Points): *Function Correctness*: Function to count the letters is implemented and correct.  There are many right answers but we will take points if you do it extremely inefficiently.
