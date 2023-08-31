@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: page
 title: Data Science
 subtitle: CMPS 4790/6790 - Fall 2023
 published: true
