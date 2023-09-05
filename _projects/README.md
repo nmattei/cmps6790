@@ -1,12 +1,6 @@
 # Course Projects
 
-
-
-**For students: to work on a Demo, you should:**
-
-- Click the corresponding `Open in Colab` link below.
-- Immediately click `File->Save` (Command/Ctrl S), then "Save a Copy in Drive"
-- This will create a new copy in the `Colab Notebooks` folder of your personal Google Drive for whichever Google account you are signed into at the time.
+This page and subfolders contain the required text, rubrics, and examples for the course projects including the final tutorial.
 
 | Project | Title  | Link |
 |-------|--------|------|
