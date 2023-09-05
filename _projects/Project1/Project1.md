@@ -7,7 +7,8 @@ published: true
 
 # Project 1: Fly Me To The Moon
 
-**Posted:** September 9, 2020; <br>
+* **Posted:** September 5, 2023
+* **Last Revision:** September 5,2023
 
 You've been hired by a new space weather startup looking to disrupt the space weather reporting business. Your first project is to provide better data about the top 50 solar flares recorded so far than that shown by your competitor [SpaceWeatherLive.com](https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares). To do this, they've pointed you to [this messy HTML page](http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html) from NASA ([available here also](http://www.hcbravo.org/IntroDataSci/misc/waves_type2.html)) where you can get the extra data your startup is going to post in your new spiffy site.
 
@@ -15,7 +16,7 @@ Of course, you don't have access to the raw data for either of these two tables,
 
 ### Groups and Collaboration Plan
 
-You are allowed to complete this project in a group of exactly size 2, no exceptions.  If you choose to complete this project as a group you must:
+If you are an undergraduate student you can complete this project in a group of exactly size 2 consisting of only undergraduate students, no exceptions.  If you choose to complete this project as a group you must:
  1. Both members of the group must **turn in exaclty the same notebook on Canvas**.
  2. As the top cell in your notebook, you must also include a short *collaboration plan* describing how you are working together, what technologies you are using, and when / how often you are meeting to work on this project.  Examples include: we setup a private Github repo to coordinate code and we met on Zoom X times…. or even we used [Teletype for Atom](https://teletype.atom.io/) or [RemoteCollab for Sublime](https://packagecontrol.io/packages/RemoteCollab). Failure to turn in a collaboration plan that shows you coordinated will be a loss of professionalism points. The turned in result will need to reflect the understanding of both students
 
@@ -23,7 +24,7 @@ You are allowed to complete this project in a group of exactly size 2, no except
 
 ## Part 1: Data Scraping and Preparation
 
-### Step 1: Scrape Your Competitor's Data (10 pts)
+### Step 1: Scrape Your Competitor's Data
 
 Use Python to scrape data for the top 50 solar flares shown in [SpaceWeatherLive.com](https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares). Steps to do this are:
 
@@ -63,7 +64,7 @@ Dimension: 50 × 8
 
 **You must have this table displayed in your final notebook when you submit it.**
 
-### Step 2: Tidy the Top 50 Solar Flare Data (10 pts)
+### Step 2: Tidy the Top 50 Solar Flare Data
 
 Your next step is to make sure this table is usable using pandas:
 
@@ -101,7 +102,7 @@ A dataframe: 50 × 6
 
 **You must have this table along with the dtypes displayed in your final notebook when you submit it.**
 
-### Step 3: Scrape the NASA Data (20 pts)
+### Step 3: Scrape the NASA Data
 
 Next you need to scrape the data in [http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html](http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html) ([also available here](http://www.hcbravo.org/IntroDataSci/misc/waves_type2.html)) to get additional data about these solar flares. This table format is described here: [http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2_description.htm](http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2_description.htm), and here:
 
@@ -172,7 +173,7 @@ A DataFrame with Dimensions: 511 rows × 14 columns
 ```
 **You must have this table displayed in your final notebook when you submit it.**
 
-### Step 4: Tidy the NASA the Table (20 pts)
+### Step 4: Tidy the NASA the Table
 
 Now, we tidy up the NASA table. Here we will code missing observations properly, recode columns that correspond to more than one piece of information, and treat dates and times appropriately.
 
@@ -212,23 +213,23 @@ The output of this step should be similar to this:
 
 Now that you have data from both sites, let’s start some analysis.
 
-### Question 1: Replication (10 pts)
+### Question 1: Replication
 
 Can you replicate the top 50 solar flare table in [SpaceWeatherLive.com](https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares) exactly using the data obtained from NASA? That is, if you get the top 50 solar flares from the NASA table based on their classification (e.g., X28 is the highest), do you get data for the same solar flare events?
 
-Include code used to get the top 50 solar flares from the NASA table (be careful when ordering by classification, remember x is the highest!). Write a sentence or two discussing how well you can replicate the SpaceWeatherLive data from the NASA data.
+Include code used to get the top 50 solar flares from the NASA table (be careful when ordering by classification, remember x is the highest!). Write a short summary of your analysis, discussing how well you can replicate the SpaceWeatherLive data from the NASA data.
 
 **Hint: You can modify the NASA dataframe slightly to do this if you wish.**
 
 **Hint: You're going to want to use some [date/time indexing functions](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html).**
 
-### Question 2: Integration (15 pts)
+### Question 2: Integration
 
 Write a function that finds the best matching row in the NASA data for each of the top 50 solar flares in the SpaceWeatherLive data **and assigns a rank value to that entry in the NASA table**. Here, you have to decide for yourself how you determine what is the best matching entry in the NASA data for each of the top 50 solar flares.
 
 **Hint: You may want to look at multiple pieces of data before deciding if a flare matches.**
 
-In your submission, include an explanation of how you are defining best matching rows across the two datasets in addition to the code used to find the best matches. 
+In your submission, include an explanation of how you are defining best matching rows across the two datasets in addition to the code used to find the best matches. Detail what works, what doesn't, and the logic of your matching function. **Note:** Yes, I know [TheFuzz](https://github.com/seatgeek/thefuzz) exists, no you aren't allowed to use it. You must create and articulate a function for this, not rely on a library you don't understand.
 
 **Use your function to add a new column to the NASA dataset indicating its rank according to SpaceWeatherLive, if it appears in that dataset.**
 
@@ -236,11 +237,11 @@ In your submission, include an explanation of how you are defining best matching
 
 **At the end of this section display only flares in the NASA table that you could rank.**
 
-### Question 3: Analysis Plot (15 pts)
+### Question 3: Analysis Plot
 
 **Note: From here on we are only referring to the top 50 that you were able to match in the NASA data.**
 
-Prepare one plot that shows the top 50 solar flares that you were able to match in context with all data available in the NASA dataset. Here are some possibilities (you can do something else).  Helpful ideas are also in the [Pandas Visualization Docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html).
+Prepare **at least three** plots that shows the top 50 solar flares that you were able to match in context with all data available in the NASA dataset with interesting features. Here are some possibilities (you can do something else).  Helpful ideas are also in the [Pandas Visualization Docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html).
 
 1.  Plot attributes in the NASA dataset (e.g., starting or ending frequencies, flare height or width) over time. Use graphical elements (e.g., text or points) to indicate flares in the top 50 classification.
   * **Hint:** You may want to make use of [pandas isnull](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isnull.html) to filter correctly.
@@ -249,13 +250,15 @@ Prepare one plot that shows the top 50 solar flares that you were able to match 
     
 3.  Do strong flares cluster in time? Plot the number of flares per month over time, add a graphical element to indicate (e.g., text or points) to indicate the number of strong flares (in the top 50) to see if they cluster.
 
+4. Something else fun, give me something interesting, get more points!
+
 **Display your graph and make sure the labels and axes are informative!**
 
 ----
 
 ## Submission
 
-Prepare an Jupyter Notebook file that includes for each step in Part 1: 
+Prepare an Jupyter Notebook file that includes for each step: 
 1. Code to carry out the step discussed, 
 2. output showing the output of your code, similar to the examples above, and 
 3. a short prose description of how your code works. 
@@ -265,7 +268,7 @@ Prepare an Jupyter Notebook file that includes for each step in Part 1:
 For Questions 1 and 2 of Part 2, follow the instructions there.  **Be sure to use Markdown cells to properly document and discuss what you are coding in the notebook.**
 
 For Question 3 of part 2 provide: 
-1. A short description (2 sentences) of what the intent of your plot is (think in terms of our discussion and notebooks on how we show variation, co-variation in terms of summary statistics like central trend, spread, skew etc.),
+1. A short description (2 sentences) of what the intent of your plots are (think in terms of our discussion and notebooks on how we show variation, co-variation in terms of summary statistics like central trend, spread, skew etc.),
 2. code to produce your plot,
 3. a short text description of your plot, and 
 4. a sentence or two of interpretation of your plot (again think of variation, co-variation, etc.).
@@ -273,34 +276,34 @@ For Question 3 of part 2 provide:
 Submit the resulting .ipynb to [Canvas](https://tulane.instructure.com/)
 
 ## Grading Rubric
-* (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
+* (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
   * You should, using Markdown in your notebook, clearly label all parts of the project.. 
   * **Hint:** Copy this markdown into a notebook cells and *start from there!*.
-* Scrape Your Competitor's Data (10 pts)
+* (5 pts) Scrape Your Competitor's Data 
   * Documentation and Markdown cells used appropriately.
   * Code is correct to achieve task.
   * Table is displayed.
-* Tidy the Top 50 Solar Flare Data (10 pts)
+* (5 pts) Tidy the Top 50 Solar Flare Data 
   * Documentation and Markdown cells used appropriately.
   * Code is correct to achieve task.
   * Table is displayed.
-* Scrape the NASA Data (15 pts)
+* (5 pts) Scrape the NASA Data 
   * Documentation and Markdown cells used appropriately.
   * Code is correct to achieve task.
   * Table is displayed.
-* Tidy the NASA the Table (15 pts)
+* (5 pts) Tidy the NASA the Table 
   * Documentation and Markdown cells used appropriately.
   * Code is correct to achieve task.
   * Table is displayed.
-* Replication (10 pts)
+* (5 pts) Replication 
   * Documentation and Markdown cells used appropriately.
   * Code is correct to achieve task.
   * Interpretation and discussion is appropriate.
-* Integration (15 pts)
+* (10 pts) Integration 
   * Documentation and Markdown cells used appropriately.
   * Code is correct to achieve task.
   * Table is displayed.
-* Analysis (15 pts)
+* (10 pts) Analysis 
   * Documentation and Markdown cells used appropriately.
   * Code is correct to achieve task.
   * Graphs are clean and well labeled.
