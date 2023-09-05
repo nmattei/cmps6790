@@ -134,7 +134,7 @@ In the interest of building students' public portfolios, and in the spirit of "l
 3. A final, in class presentation.
 4. A final tutorial and website which must include in addition to ETL and EDA a statistical or predictive model and testing. 
 
-**A complete version of the assignment as well as all the past assignments can be found at the [Final Tutorial Page](/_projects/FinalTutorial.md).**
+**A complete version of the assignment as well as all the past assignments can be found at the [Final Tutorial Page](/_projects/FinalTutorial/FinalTutorial.md).**
 
 ### Additional Work for Graduate Students
 Graduate students who enroll in this course will be required to complete their final project/tutorial as an individual.
