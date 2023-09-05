@@ -62,7 +62,9 @@ A large debt for this course is owed to John P. Dickerson at UMD and his course 
   * [2018 DS100 with resources](http://www.ds100.org/sp18/syllabus)
   * [Data 100 GitHub](https://github.com/DS-100)
 
-* [Data Science at UIUC UIUC Data Science Course](https://github.com/Yiming-Gao/UIUC-Spring-2017/tree/master/INFO-490)
+* [Alan Turing Institute on Ethics and AI/DS](https://www.turing.ac.uk/courses)
+
+* [Data Science at UIUC Data Science Course](https://github.com/Yiming-Gao/UIUC-Spring-2017/tree/master/INFO-490)
 
 * [Lyle Unger's Machine Learning Page at Penn State](https://alliance.seas.upenn.edu/~cis520/dynamic/2020/wiki/index.php?n=Main.HomePage)
 
