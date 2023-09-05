@@ -23,7 +23,7 @@ description: Tulane University - Fall 2023
 navbar-links:
   Syllabus: "syllabus"
   Schedule and Assignments: "schedule"
-  Final Tutorial: "./_projects/FinalProject/FinalTutorial"
+  Final Tutorial: "./projects/FinalProject/FinalTutorial"
   Links & Resources: "resources"
 
 collections:
