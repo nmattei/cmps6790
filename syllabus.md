@@ -74,11 +74,11 @@ At the conclusion of this course students will be able to:
 
 ## Program-Level Outcomes
 This course is currently new and aims to serve a range of constituents, the course should serve as:
-1) An advanced offering to undergraduate Tulane students who have completed CMPS 3160 and are looking for more depth.
-2) An advanced course in data science for Tulane MS and BS students who are not in CMPS.
-3) A core course for students in the CMPS-MATH MS in Data Science program.
-3) An introductory course for Tulane MS students who are interested in Data Science.
-4) A course for CMPS PhD students to gain advanced knowledge.
+1. An advanced offering to undergraduate Tulane students who have completed CMPS 3160 and are looking for more depth.
+2. An advanced course in data science for Tulane MS and BS students who are not in CMPS.
+3. A core course for students in the CMPS-MATH MS in Data Science program.
+4. An introductory course for Tulane MS students who are interested in Data Science.
+5. A course for CMPS PhD students to gain advanced knowledge.
 
 This course fulfills the requirement of **one** of the CMPS 3000-level or above courses required for the coordinate major in computer science.  Students need to complete three such courses in order to complete the requirements for a coordinate major.  For more information on the coordinate major please see the requirements at [the Registrar's Website](https://catalog.tulane.edu/science-engineering/computer-science/computer-science-coordinate-major/#requirementstext)
 
@@ -101,12 +101,12 @@ In addition to the required zyBook, there are two texts that are **very strongly
 ## Evaluation Procedures and Grading Criteria
 This course will consist of seven distinct grading areas.  Note that all point values described below for individual assignments are subject to change. All points are points, relative percentages are given. More information about all the assignments can be found on the [Assignments Page](./assignments.md) and the [Final Tutorial Page](/_projects/FinalTutorial.md). All assignments and due dates are posted in [Tulane Canvas](https://tulane.instructure.com/).
 
-* 20 (5%)  In Class Activities, Participation, Attendance.
-* 50 (12.5%) Required Readings
-* 100 (25%) Labs/Projects
+* 30 (5%)  In Class Activities, Participation, Attendance.
+* 100 (17%) Required Readings and Labs
+* 175 (25%) Projects
 * 55 (14%) Test 1
 * 55 (14%) Test 2
-* 120 (30%) Project (Milestone 1: 20, Milestone 2: 20, Project Presentation: 20, Final Notebook: 60)
+* 185 (30%) Project (Milestone 1: 20, Pitch 1: 10, Milestone 2: 20, Pitch 2: 10, Project Presentation: 30, Final Notebook: 85)
 
 An important aspect of this course is becoming a better coder. Hence all coding assignments will consist of a *Professionalism* component. One handy resource for this is [Arie’s Coding Guide](https://nmattei.github.io/cmps3140/codingguide). Note that this was written for Intro. to AI CMPS 3140 but many of the same issues apply to this course.
 
@@ -115,20 +115,22 @@ Attendance will be monitored through an in-class survey (nearly) every day of cl
 
 Throughout the semester we will regularly complete short in class exercises such as brainstorming activities, think-pair-share, pre/post questions, and short answer writing. As we are online sometimes this may include posting things on the discussion board or answering a short quiz in Canvas on additional readings.  This may also include presenting/explaining answers to labs in class.
 
-### Labs
-The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted.**
+### Required Readings and Labs
+The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. You will complete a selection of readings from the zyBook which have questions as well as Labs which will ask you to read and write code in a Jupyter Notebook. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted.**
 
 ### Projects
 There will be 3 "mini-projects" assigned over the course of the semester (plus one simple setup assignment that will walk you through using git, Docker, and Jupyter). The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted unless a late token is used, see below.**
+
+**Note:** Undergraduate students taking this course will be allowed to complete projects (with the exception of Project 0) in groups of exactly size 2.
 
 ### Test 1 and Test 2
 This will be a written, close book, in class exam.  You are allowed one **hand-written** cheat sheet, front and back, 8.5x11 inch paper.  You will be required to turn in this cheat sheet **with** the actual exam and it will be graded for completeness and neatness. Test 2 is cumulative.  This semester both exams will take place in person. **You must earn at least a 60% average between the two exams to pass the course.**
 
 ### Final Project
-In the interest of building students' public portfolios, and in the spirit of "learning by doing", students will create a self-contained online tutorial to be posted publicly and a ~7-minute presentation in class as well as two "pitch day" project updates. This tutorial can be created individually or in a small group (Max 2 people, except graduate students). This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data.  We will have several milestones associated with the final project:
+In the interest of building students' public portfolios, and in the spirit of "learning by doing", students will create a self-contained online tutorial to be posted publicly and a ~7-minute presentation in class as well as two "pitch day" project updates. **This tutorial can be created individually or in a small group (max 2 people).** This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data.  We will have several milestones associated with the final project:
 
-1. Identifying a dataset and establishing a GitHub.io Site, Extraction, Transform, and Load (ETL).
-2. Exploratory Data Analysis (EDA) Your notebook from Part 1 but expanded to include graphs, visualizations, and stats that show you can manipulate your data and understand the dataset you are working with.
+1. Identifying a dataset and establishing a GitHub.io Site, Extraction, Transform, and Load (ETL). This is accompanied by a in class project pitch.
+2. Exploratory Data Analysis (EDA) Your notebook from Part 1 but expanded to include graphs, visualizations, and stats that show you can manipulate your data and understand the dataset you are working with. This is accompanied by a in class project pitch.
 3. A final, in class presentation.
 4. A final tutorial and website which must include in addition to ETL and EDA a statistical or predictive model and testing. 
 
