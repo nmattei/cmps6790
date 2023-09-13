@@ -7,26 +7,25 @@ published: true
 
 ## Final Tutorial
 
+* **Posted:** September 13, 2023
+* **Last Revision:** September 13,2023
+
 In this course you will be responsible for generating a tutorial that will walk users through the entire data science pipeline: data curation, parsing, and management; exploratory data analysis; model building as either hypothesis testing and/or machine learning; and then the curation of a message or messages covering insights learned during the tutorial. Students may choose an application area and dataset(s) that are of interest to them; please feel free to be creative about this!
 
-In the interest of building students' public portfolios, and in the spirit of "learning by doing", students will create a self-contained online tutorial to be posted publicly and a 5-8 minute presentation in class. This tutorial will be completed in pairs of students (except for graduate students who will work solo). This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data. We will have several milestones associated with the final project including the following. These are each discussed below in more detail.
+In the interest of building students' public portfolios, and in the spirit of "learning by doing", students will create a self-contained online tutorial to be posted publicly and a 5-8 minute presentation in class. At each Milestone students will be required to present a one slide "pitch" of their progress during a pitch day.
+
+**This tutorial may be completed in pairs or as a solo assignment, but after Milestone 1 groups are locked**. This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data. We will have several milestones associated with the final project including the following. These are each discussed below in more detail.
 
 1. **Milestone 1:** (20 Points) Identifying a dataset and establishing a GitHub.io Site, Extraction, Transform, and Load (ETL)
-2. **Milestone 2:** (20 Points) Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA)
-3. **Deliverable 1:** (20 Points) In Class Presentation
-4. **Deliverable 2:** (65 Points) Final Website
+2. **Pitch 1 (In Person!):** (10 Points) Present a one slide pitch of the datasets and problem you hope to address
+3. **Milestone 2:** (20 Points) Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA)
+4. **Pitch 2 (In Person!):** (10 Points) Present a one slide update including at least one graph related to your data
+3. **Deliverable 1:** (30 Points) In Class Presentation **(In Person!)**
+4. **Deliverable 2:** (85 Points) Final Website
 
 Important to all coding in this class is becoming a better coder! One handy resource for this is [Arie's Coding Guide](https://nmattei.github.io/cmps3140/codingguide). Note that this was written for Intro. to AI CMPS 3140 but many of the same issues apply to this course.
 
-Some examples of high quality notebooks from past Data Science classes:
-
-* Eli and Matt, [The Happiness Project](https://mcatalano26.github.io/Data-Science-Final-Project/)
-* Addie, [Deaths in Louisiana: An Analysis of Available Data](https://ajasica.github.io/)
-* John (Dung), [Airbnb in New York City](https://dungngotan99.github.io/)
-
-**All final tutorials from past years can be found on the [Past Final Tutorials Page](./PastFinal.md).** You should take a look through these, and the topics to get a sense of the scope of these projects.
-
-If you want to see some good examples of **Milestone 1**, see [Example 1](https://github.com/nmattei/cmps3160/blob/master/_projects/nick_final.ipynb) and [Example 2](https://github.com/nmattei/cmps3160/blob/master/_projects/wilson_final.ipynb). Note that some of the required elements of Milestone 1 have changed so always check the grading rubric to make sure you have all the required elements!
+**All final tutorials from past years can be found on the [Past Final Tutorials Page](./PastFinal.md).** You should take a look through these, and the topics to get a sense of the scope of these projects. Look at several to get a sense of which ones are good!
 
 ----
 
@@ -89,9 +88,11 @@ You will need to replace the path to your notebook file with the path to your ac
 
 ~~In order to make your webpage open up the notebook and make sure everything is as you like it (cells and outputs are showing, no error messages, etc.).  Then go to `File >> Download As >>` and download the notebook as HTML.  This will save the HTML files to your disk.~~  You will then need to rename this to index.html and upload it into your github.io page.  Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like!
 
-### Milestone 1 Submission
+### Milestone 1 Submission and Pitch Day 1
 
 You should submit the notebook through [Canvas](https://tulane.instructure.com/).  In the absolute first cell of your notebook you must include your names, project title, and **a hyperlink to your webpage at github.io; the webpage must be publicly readable on the internet (i.e, live) and must contain the same work that is in the submitted notebook**.  That is: the first cell of your notebook must be a markdown cell with a hyperlink to the generated webpage up at `yourname.github.io`.  If this is not correct you will lose points. After this first cell you should continue with the other requirements including a description of your project, links to the data and other relevant resources, a collaboration plan, and the project goals.
+
+For the Pitch Day 1 you should follow the link on the [Canvas](https://tulane.instructure.com/) assignment and add a slide to the Google Slides deck which clearly includes your name, link to your website, the datasets you hope to use, and a question you are currently considering.
 
 *If you do this in a group, only one student per group needs to upload the notebook to canvas, but both names should be clearly at the beginning of the notebook.*
 
@@ -104,6 +105,12 @@ If you want to see some good examples of **Milestone 1**, see [Example 1](https:
 * (4 Points) *Project Plan*: Project plan is in place, relevant data is identified and links are provided, there are draft questions or hypothesis that the student is going to explore.  Plan clearly explains how the data could be used to answer the question and addresses whether or not other data is needed.
 * (4 Points) *Extraction, Transform, and Load (ETL)*: At least one data set(s) are loaded correctly using web scraping other techniques. The data is discussed in terms of what it is and how it could be used to answer the question of study. Where the data comes from and how it is collected is clearly documented with links and other relevant details. The data is imported and tidy according to the principles discussed in class. Dtypes are set properly and displayed within the notebook, NaN's and other techniques are used following best practices discussed in class.
 * (4 Points) *Exploratory Data Analysis (EDA)*: You should do some light EDA on your data and show 3 - 5 interesting summary statistics or groups that relate to the questions you are asking of your data along with a brief justification as to why these statistics are interesting and relevant. You should also give at least 1 graphic which shows some interesting property or distribution of your data (skew, histogram, scatter plot) etc., and explain why this is relevant to your question.
+
+### Pitch Day 1 Scoring Rubric (10 Points)
+
+* (4 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
+* (3 Points) *Slide*: Your slide includes includes your name, link to your website, the datasets you hope to use, and a question you are currently considering.
+* (3 Points) *Pitch*: Your pitch takes no more than 2-3 mins, is coherent, and you are an active participant in class on the day of the pitch **in person only**.
 
 | Full    |    Good |  Okay |   Lacking   |  No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
@@ -169,45 +176,13 @@ Here are some past short decks that are very good:
 
 ### Schedule
 
-#### Monday Dec 5th
+#### Tuesday Dec 5th
 
-| Team Members                         | Title / Topic                                           | Link to Webpage                                              |
-|--------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
-| Robbie Case and Zack Wellman         | US Congress Insider Trading Analysis                    | <https://robbiecase.github.io/>                                |
-| Jack Johnson and Kelsey Peltz        | Blackjack Analysis                                      | <https://blackjackproject.github.io/>                          |
-| Anton De Franco                      | PPP Loan Analysis                                       | <https://antondefranco.github.io/>                             |
-| Hayden Outlaw                        | Natural Disasters and Geographical Impact               | <https://outlawhayden.github.io/>                              |
-| Jingzhi Yang                         | Credit Card Approval Analysis                           | <https://yship1002.github.io/>                                 |
-| Lorena Peñuela Cantor                | E-Commerce Business Data Analytics                      | <https://lpenuelac.github.io/>                                 |
-| Carly Presz and Evan Hendrickson     | MLB Stadium Analysis                                    | <https://cpresz.github.io/>                                    |
+TBD
 
-#### Wednesday Dec 7th
+#### Thursday Dec 7th
 
-| Team Members                         | Title / Topic                                           | Link to Webpage                                              |
-|--------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
-| Josh McCoy and Zach Goodman          | Factors in NFL Game Score                               | <https://joshmccoy2.github.io/>                                |
-| Chris Callahan and Mikey Sison       | Where Does Foreign Aid Go?                              | <https://chriscallahan99.github.io/DataScience_Final_Project/> |
-| Adam Goodman and Ethan Perello       | Student Success                                         | <https://github.com/EthanPerello/Data-Science-Project>         |
-| Amara Midouhas and Rehan Mullan      | Infulence of News Media on Stock Price                  | <https://rehan072.github.io/>                                  |
-| Sam DeMarinis and Nick Radwin        | Fake News on Facebook Engagement                        | <https://nradwin.github.io/>                                   |
-| Haochen Chen and Maria Chen          | Football Player and Team Performance                    | <https://alphardovo.github.io/>                                |
-| Yali Tiomkin and Rafi Deykin         | Louisiana Health Insurance and Disability               | <https://rdeykin.github.io/>                                   |
-| Maddie Bonanno and Riley Martin      | Migraine Comorbidity Crossover                          | <https://mscb25.github.io/datasci-final-maddieriley/>          |
-| Thomas Cutro and Joeseph Wagner      | Analysis of Opioid Drug Overdoses                       | <https://tcutro1.github.io/final-project/>                     |
-
-#### Friday Dec 9th
-
-| Team Members                         | Title / Topic                                           | Link to Webpage                                              |
-|--------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
-| Owen Butler                          | Movie Aspect Understanding                              | <https://ozbutler12.github.io/>                                |
-| Qinzheng Xu                          | Exploratory Analysis of The Financial Analyst Forecast  | <https://github.com/xu000112-bit/Analyst>                      |
-| Nathaniel Vaduthala                  | An Analysis of Commonly Held Fan Beliefs About Referees | <https://nvaduthala3.github.io/>                               |
-| Shira Rozenthal and Marco Carbullido | Senate-Optimized S&P500                                 | <https://shirarozenthal.github.io/shirarozenthal/>             |
-| Thien Tran                           | United States Cancer Statistics 1999-2018               | <https://httran158.github.io/>                                 |
-| Kerui Geng                           | Predicting Buyers Behavior                              | <https://keruigeng.github.io/>                                 |
-| Jonathan Licht and Jim Haines        | Drug/Alcohol Use by State                               | <https://jlicht27.github.io/>                                  |
-| Emma LeBouef                         | F1 Performance and Economic Indicators                  | <https://emmalebouef.github.io/>                               |
-| Sarah Helmbrecht and JT McDermott    | Famous People You've Never Heard Of                     | <https://skhelmbrecht.github.io/>                              |
+TBD
 
 **Note:** You must upload your slides through [Canvas](https://tulane.instructure.com/) **at least 2 hours before class time on the day of your presentation**.  Failure to do this will result in a minimum of all points lost for *Professionalism*. You will be required to be in person to present unless you have made other arrangements with me. I will compile all slides into one deck for the individual presentation days.
 

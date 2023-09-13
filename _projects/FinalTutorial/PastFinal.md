@@ -7,6 +7,46 @@ published: true
 
 This page contains links (possibly broken) to past [Final Tutorials](FinalTutorial.md) presented in this class. This helps not only see what other students have done but also gives you some examples of what ideas might work and which ones might not!
 
+## 2022
+
+| Team Members                         | Title / Topic                                           | Link to Webpage                                              |
+|--------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
+| Robbie Case and Zack Wellman         | US Congress Insider Trading Analysis                    | <https://robbiecase.github.io/>                                |
+| Jack Johnson and Kelsey Peltz        | Blackjack Analysis                                      | <https://blackjackproject.github.io/>                          |
+| Anton De Franco                      | PPP Loan Analysis                                       | <https://antondefranco.github.io/>                             |
+| Hayden Outlaw                        | Natural Disasters and Geographical Impact               | <https://outlawhayden.github.io/>                              |
+| Jingzhi Yang                         | Credit Card Approval Analysis                           | <https://yship1002.github.io/>                                 |
+| Lorena Peñuela Cantor                | E-Commerce Business Data Analytics                      | <https://lpenuelac.github.io/>                                 |
+| Carly Presz and Evan Hendrickson     | MLB Stadium Analysis                                    | <https://cpresz.github.io/>                                    |
+
+---
+
+| Team Members                         | Title / Topic                                           | Link to Webpage                                              |
+|--------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
+| Josh McCoy and Zach Goodman          | Factors in NFL Game Score                               | <https://joshmccoy2.github.io/>                                |
+| Chris Callahan and Mikey Sison       | Where Does Foreign Aid Go?                              | <https://chriscallahan99.github.io/DataScience_Final_Project/> |
+| Adam Goodman and Ethan Perello       | Student Success                                         | <https://github.com/EthanPerello/Data-Science-Project>         |
+| Amara Midouhas and Rehan Mullan      | Infulence of News Media on Stock Price                  | <https://rehan072.github.io/>                                  |
+| Sam DeMarinis and Nick Radwin        | Fake News on Facebook Engagement                        | <https://nradwin.github.io/>                                   |
+| Haochen Chen and Maria Chen          | Football Player and Team Performance                    | <https://alphardovo.github.io/>                                |
+| Yali Tiomkin and Rafi Deykin         | Louisiana Health Insurance and Disability               | <https://rdeykin.github.io/>                                   |
+| Maddie Bonanno and Riley Martin      | Migraine Comorbidity Crossover                          | <https://mscb25.github.io/datasci-final-maddieriley/>          |
+| Thomas Cutro and Joeseph Wagner      | Analysis of Opioid Drug Overdoses                       | <https://tcutro1.github.io/final-project/>                     |
+
+---
+
+| Team Members                         | Title / Topic                                           | Link to Webpage                                              |
+|--------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|
+| Owen Butler                          | Movie Aspect Understanding                              | <https://ozbutler12.github.io/>                                |
+| Qinzheng Xu                          | Exploratory Analysis of The Financial Analyst Forecast  | <https://github.com/xu000112-bit/Analyst>                      |
+| Nathaniel Vaduthala                  | An Analysis of Commonly Held Fan Beliefs About Referees | <https://nvaduthala3.github.io/>                               |
+| Shira Rozenthal and Marco Carbullido | Senate-Optimized S&P500                                 | <https://shirarozenthal.github.io/shirarozenthal/>             |
+| Thien Tran                           | United States Cancer Statistics 1999-2018               | <https://httran158.github.io/>                                 |
+| Kerui Geng                           | Predicting Buyers Behavior                              | <https://keruigeng.github.io/>                                 |
+| Jonathan Licht and Jim Haines        | Drug/Alcohol Use by State                               | <https://jlicht27.github.io/>                                  |
+| Emma LeBouef                         | F1 Performance and Economic Indicators                  | <https://emmalebouef.github.io/>                               |
+| Sarah Helmbrecht and JT McDermott    | Famous People You've Never Heard Of                     | <https://skhelmbrecht.github.io/>                              |
+
 ## 2021
 
 | Team Members                       | Title / Topic                                | Link                                                          |
