@@ -11,4 +11,5 @@ Contents:
 - [_demos](_demos): Code for in-class demonstrations.
 - [_projects](_projects): Instructions for course projects.
 
-EMMA WE CHANGD TOFSDIFSDITJHS~~~~
+EMMA WE CHANGD TOFSDIFSDITJHS~~~~ WE GONNA BREAK IT ALL!!
+
