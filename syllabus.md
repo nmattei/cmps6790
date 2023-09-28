@@ -116,7 +116,7 @@ Attendance will be monitored through an in-class survey (nearly) every day of cl
 Throughout the semester we will regularly complete short in class exercises such as brainstorming activities, think-pair-share, pre/post questions, and short answer writing. As we are online sometimes this may include posting things on the discussion board or answering a short quiz in Canvas on additional readings.  This may also include presenting/explaining answers to labs in class.
 
 ### Required Readings and Labs
-The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. You will complete a selection of readings from the zyBook which have questions as well as Labs which will ask you to read and write code in a Jupyter Notebook. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted.**
+The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. You will complete a selection of readings from the zyBook which have questions as well as Labs which will ask you to read and write code in a Jupyter Notebook. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted unless you have a late token to use.**
 
 ### Projects
 There will be 3 "mini-projects" assigned over the course of the semester (plus one simple setup assignment that will walk you through using git, Docker, and Jupyter). The best way to learn is by doing, so these will largely be applied assignments that provide hands-on experience with the basic skills a data scientist needs in industry. **Posting solutions publicly online without the staff's express consent is a direct violation of our academic integrity policy. Late assignments will not be accepted unless a late token is used, see below.**
@@ -144,10 +144,10 @@ Graduate students who enroll in this course will be required to complete their f
 * All work will be due **at class time on the day assigned**.  This means turning things in during or after class is considered late.  This will be consistent throughout the semester.
 
 ### Late Work Policy
-All work must be turned in on time unless explicit consent for outstanding circumstances is given beforehand (or in the case of illness, with a documented absence after).  **Any late work without prior authorization will not be accepted and count as a 0.**
+All work must be turned in on time unless explicit consent for outstanding circumstances is given beforehand (or in the case of illness, with a documented absence after).  **Any late work without prior authorization, or a late token in the case of projects, will not be accepted and count as a 0.**
 
 ### Late Tokens
-At the start of this semester you each are holding **3 late tokens** which can be redeemed at any time for **projects or readings only, they may not be used for milestones or labs**.  Each token is worth one additional day, to use at your discretion.  These tokens have no cash value but are worth 0.5% of your total grade at the end of the semester.  Note that you cannot use a late token if lab solutions have already been presented in class.
+At the start of this semester you each are holding **3 late tokens** which can be redeemed at any time for **projects, labs, or readings only, they may not be used for milestones**.  Each token is worth one additional day, to use at your discretion.  These tokens have no cash value but are worth 0.5% of your total grade at the end of the semester.  Note that you cannot use a late token if lab solutions have already been presented in class.
 
 ### Final Grade Policy
 The weighted average will determine your letter grade roughly as follows, +/- grades will be given for borderline cases.
