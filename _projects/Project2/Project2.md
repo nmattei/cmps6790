@@ -7,13 +7,14 @@ published: true
 
 # Project 2: Moneyball!
 
-**Posted:** Oct 12, 2020; <br>
+* **Posted:** October 11, 2023
+* **Last Revision:** October 11, 2023
 
 In this project you will apply your data wrangling and exploratory data analysis skills to baseball data. In particular, we want to know how well did Moneyball work for the Oakland A's. Was it worthy of a movie?
 
 ### Groups and Collaboration Plan
 
-You are allowed to complete this project in a group of exactly size 2, no exceptions.  If you choose to complete this project as a group you must:
+If you are an undergraduate student, you are allowed to complete this project in a group of exactly size 2, no exceptions.  If you choose to complete this project as a group you must:
  1. Both members of the group must **turn in exaclty the same notebook on Canvas**.
  2. As the top cell in your notebook, you must also include a short *collaboration plan* describing how you are working together, what technologies you are using, and when / how often you are meeting to work on this project.  Examples include: we setup a private Github repo to coordinate code and we met on Zoom X times…. or even we used [Teletype for Atom](https://teletype.atom.io/) or [RemoteCollab for Sublime](https://packagecontrol.io/packages/RemoteCollab). Failure to turn in a collaboration plan that shows you coordinated will be a loss of professionalism points. The turned in result will need to reflect the understanding of both students
 
@@ -197,7 +198,7 @@ What can you learn from this plot compared to the set of plots you looked at in 
 
 ## Submission
 
-Prepare a Jupyter notebook that includes for each Problem: (a) code to carry out the step discussed, (b) output showing the result of your code, and (c) a short prose description of how your code works. Remember, the writeup you are preparing is intended to communicate your data analysis effectively. Thoughtlessly showing large amounts of output in your writeup defeats that purpose.
+Prepare a Jupyter notebook that includes for each Problem: (a) code to carry out the step discussed, (b) output showing the result of your code, and (c) a short prose description in *markdown* of how your code works. Remember, the writeup you are preparing is intended to communicate your data analysis effectively. Thoughtlessly showing large amounts of output in your writeup defeats that purpose and will lose points.
 
 All axes in plots should be labeled in an informative manner. Your answers to any question that refers to a plot should include both (a) a text description of your plot, and (b) a sentence or two of interpretation as it relates to the question asked.
 
@@ -207,23 +208,23 @@ Submit this completed notebook which contains your answers as markdown cells to 
 
 Note that code that does not work will not be graded and you will receive a 0 for that section.  We reserve the right to deduct points for things like general sloppiness of the notebook, poor labels, unlabeled axes, etc.  You should include markdown cells to break up your notebook and **clearly label** the problems and questions below.
 
-* (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
-* (15 Points) Part 1: *Wrangling*
-  * (10 Points) Problem 1: You used a single SQL query and display the correct dataset.
-  * (5 Points) Discussion of how missing data is dealt with is present.
- * (35 Points) Part 2: *Exploratory Data Analysis* 
-   * (10 Points) Problem 2: You have produced the plot to show the distribution of payrolls across time.
-   * (5 Points) Question 1: There is a markdown cell explaining the statements about this plot and the statements are reasonable.
-   * (5 Points) Problem 3: A plot exists and is well labeled to support the statements.
-   * (10 Points) Problem 4: Code is present to discretize the data into 5 time periods.  Plot is present of winning percentage as a function of mean payroll.
-   * (5 Points) Question 2: Markdown cell explains results for Question 2 about trends over time.
-* (40 Points) Part 3: *Data Transformations*
-  * (10 Points) Problem 5: Code is present to achieve standardized payroll and is reasonable and correct.
+* (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
+* (7.5 Points) Part 1: *Wrangling*
+  * (5 Points) Problem 1: You used a single SQL query and display the correct dataset.
+  * (2.5 Points) Discussion of how missing data is dealt with is present.
+ * (12.5 Points) Part 2: *Exploratory Data Analysis* 
+   * (2.5 Points) Problem 2: You have produced the plot to show the distribution of payrolls across time.
+   * (2.5 Points) Question 1: There is a markdown cell explaining the statements about this plot and the statements are reasonable.
+   * (2.5 Points) Problem 3: A plot exists and is well labeled to support the statements.
+   * (2.5 Points) Problem 4: Code is present to discretize the data into 5 time periods.  Plot is present of winning percentage as a function of mean payroll.
+   * (2.5 Points) Question 2: Markdown cell explains results for Question 2 about trends over time.
+* (25 Points) Part 3: *Data Transformations*
+  * (5 Points) Problem 5: Code is present to achieve standardized payroll and is reasonable and correct.
   * (5 Points) Problem 6: Plots are present that compare the old and new payroll variables.
-  * (5 Points) Question 3: Markdown cell addresses differences between Problem 4 and Problem 6.
-  * (10 Points) Problem 7: Plot and regression line are present and code is correct and reasonable.
+  * (2.5 Points) Question 3: Markdown cell addresses differences between Problem 4 and Problem 6.
+  * (5 Points) Problem 7: Plot and regression line are present and code is correct and reasonable.
   * (5 Points) Problem 8: Code and plot are present and correct to measure the spending efficiency.
-  * (5 Points) Question 4: Markdown cell is present that discusses the findings, it is reasonable and correct.
+  * (2.5 Points) Question 4: Markdown cell is present that discusses the findings, it is reasonable and correct.
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
