@@ -38,13 +38,13 @@ A fun side note, [Michael Lewis](https://en.wikipedia.org/wiki/Michael_Lewis) is
 
 ## The Data
 
-You will be using data from a very useful database on baseball teams, players and seasons curated by Sean Lahman available at [http://www.seanlahman.com/baseball-archive/statistics/](http://www.seanlahman.com/baseball-archive/statistics/). The database has been made available as a `sqlite` database [https://github.com/jknecht/baseball-archive-sqlite](https://github.com/jknecht/baseball-archive-sqlite). `sqlite` is a light-weight, file-based database management system that is well suited for small projects and prototypes.
+You will be using data from a very useful database on baseball teams, players and seasons curated by Sean Lahman available at [http://seanlahman.com/download-baseball-database/](http://seanlahman.com/download-baseball-database/). The database has been made available as a `sqlite` database [https://github.com/jknecht/baseball-archive-sqlite](https://github.com/jknecht/baseball-archive-sqlite). `sqlite` is a light-weight, file-based database management system that is well suited for small projects and prototypes.
 
 **Note:** You must use the 2014 data for this project.  Failure to use the correct file will cause a **loss of points!!** And the analysis won't work quite right!!
 
-You can read more about the dataset here: [http://seanlahman.com/files/database/readme2014.txt](http://seanlahman.com/files/database/readme2014.txt).
+You can read more about the dataset here: [https://github.com/chadwickbureau/baseballdatabank/blob/master/readme2014.txt](https://github.com/chadwickbureau/baseballdatabank/blob/master/readme2014.txt).
 
-You can download the `sqlite` file directly from github at [https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2014.sqlite](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2014.sqlite).
+You can download the `sqlite` file directly from github at [https://github.com/jknecht/baseball-archive-sqlite/releases/tag/2014](https://github.com/jknecht/baseball-archive-sqlite/releases/tag/2014).
 
 You will be accessing the `sqlite` database in python using the [sqlite package](https://docs.python.org/3/library/sqlite3.html). This package provides a straightforward interface to extract data from `sqlite` databases using standard SQL commands.
 
