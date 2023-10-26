@@ -120,17 +120,19 @@ If you want to see some good examples of **Milestone 1**, see [Example 1](https:
 
 ----
 
-## Milestone 2: Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA)
+## Milestone 2: Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA), and Model Proposal
 
-Your notebook from Part 1 but expanded to include an additional dataset being loaded and parsed into shape using the principles of tidy data discussed in class. This is to show that you have figured out how to get the data into your system. You should remove any data sources or questions that are not being used and you should now have a focused discussion at the top of your notebook on what questions you will attack and a discussion of why the data you are using is correct. **Note: Much of the power of Data Science lies in bringing multiple datasets together, so you must be using more than one dataset for this part!**
+Your notebook from Part 1 but expanded to include an additional dataset being loaded and parsed into shape using the principles of tidy data discussed in class (think Project 1!). This is to show that you have figured out how to get the data into your system. You should remove any data sources or questions that are not being used and you should now have a focused discussion at the top of your notebook on what questions you will attack and a discussion of why the data you are using is correct. **Note: Much of the power of Data Science lies in bringing multiple datasets together, so you must be using more than one dataset for this part!**
 
 In addition you should also have at least 5 graphs and summary statistics/tables including cross-tabulations, groups, measures of central tendency, and/or any of the other EDA techniques discussed showing that you have started to investigate your data and have an understanding of what is in your dataset.  These graphs should be documented much as we did in Project 1 where you describe what the graph is showing and why.  Use of appropriate Markdown cells is essential.
 
-At the end of your notebook you should outline at least two ideas of what model you will be building to in the rest of your notebook. Example ideas include "We plan to use the time and date variable to predict parking violations in a zip code" or "We plan to test if there is a statistically significant positive correlation between income and happiness." **The graphs and summary statistics should inform what questions you have decided to ask here, if they don't, compute more summary statistics!**
+At the **end** of your notebook you should outline at least two ideas of what model you will be building to in the rest of your notebook. Example ideas include "We plan to use the time and date variable to predict parking violations in a zip code" or "We plan to test if there is a statistically significant positive correlation between income and happiness." **The graphs and summary statistics should inform what questions you have decided to ask here, if they don't, compute more summary statistics!** If you are ahead and have some results from an initial model, awesome!
 
-### Milestone 2 Submission
+### Milestone 2 and Pitch Day 2
 
 You should submit the notebook through [Canvas](https://tulane.instructure.com/).  The first cell of your notebook in the markdown **must be a hyperlink in your notebook to the webpage at github.io, and the webpage must be publicly readable on the internet (i.e, live)**.  That is: the first cell of your notebook must be a markdown cell with a hyperlink to the generated webpage up at `yourname.github.io`.  If this is not correct you will lose points.
+
+For the Pitch Day 2 you should follow the link on the [Canvas](https://tulane.instructure.com/) assignment and add a slide to the Google Slides deck which clearly includes your name, link to your website, the datasets you hope to use, and a clear statement of a proposed model and any early findings. Do not re-order the slides, we will go in reverse order from last pitch day.
 
 *If you do this in a group, only one student per group needs to upload the notebook to canvas, but both names should be clearly at the beginning of the notebook.*
 
@@ -142,6 +144,12 @@ You should submit the notebook through [Canvas](https://tulane.instructure.com/)
 * (5 Points) *Extraction, Transform, and Load (ETL)*: You are now using more than one dataset and they are both loaded correctly using web scraping other techniques.  The data is discussed in terms of what it is and how it could be used to answer the question of study.  Where the data comes from and how it is collected is clearly documented with links and other relevant details.  The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly and displayed within the notebook, NaN's and other techniques are used following best practices discussed in class.
 * (5 Points) *Exploratory Data Analysis (EDA)*: At least 5 graphs and/or summary statistics/tables including cross-tabulations, groups, measures of central tendency, and/or any of the other EDA techniques discussed showing that you have started to investigate your data and have an understanding of what is in your dataset.  Each of these pieces of analysis should have a corresponding markdown cell that clearly explains what is being shown and why.
 * (5 Points) *Model Questions*: You have identified at least two plausible models that you could build using your data and the graphs in your EDA section support continuing the investigation. You have clearly identified independent and dependent variables and appropriate test/prediction methodology for each question.
+
+### Pitch Day 2 Scoring Rubric (10 Points)
+
+* (4 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
+* (3 Points) *Slide*: Your slide includes includes your name, link to your website, the datasets you hope to use, and proposed model with some initial EDA results.
+* (3 Points) *Pitch*: Your pitch takes no more than 2-3 mins, is coherent, and you are an active participant in class on the day of the pitch **in person only**.
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
