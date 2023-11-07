@@ -55,7 +55,7 @@ A slightly different way of making the same plot is looking at the distribution 
     fig.savefig("violin.png")
 ```
 
-<img src="./violin.png" height="242">
+<p style="text-align:center;"><img src="{{ './violin.png' | relative_url }}" height="242" /></p>
 
 This type of plot is called a <em>violin plot</em>, and it displays the distribution of the variable in the y-axis for each value of the variable in the x-axis. (It is okay to use other plotting libraries and tools to create this plot, and others throughout the assignment.)
 
