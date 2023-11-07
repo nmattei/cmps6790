@@ -14,7 +14,7 @@ For this project you will practice and experiment linear regression using data f
 
 We will use a subset of data provided by gapminder provided by [Jennifer Bryan](https://jennybryan.org/) described in its [github page](https://github.com/jennybc/gapminder)
 
-Get the data from: https://github.com/jennybc/gapminder/blob/master/data-raw/08_gap-every-five-years.tsv
+Get the data from [Jennifer's Github here.](https://github.com/jennybc/gapminder/blob/master/data-raw/08_gap-every-five-years.tsv)
 
 (A mirror of that data is available in the project repository, in the Project 3 directory.)
 
