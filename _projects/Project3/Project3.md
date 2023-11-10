@@ -120,7 +120,7 @@ Choose *two* of the following algorithms, or feel free to use other ``standard''
 
 (It will likely make sense to choose two classifiers or two regressors, not one of each, for most datasets and tasks.)
 
-Compare the two chosen algorithms on their prediction performance, using your chosen dataset.  Let us know what your performance metric is (e.g., accuracy, false negative rate (FNR), false positive rate (FPR), precision, recall, etc), and feel free to use more than one.  Use either (i) holdout validation, like we discussed in class , or (ii) 10-fold cross-validation.  SKLearn offers some one-liners to help with cross-validation; [more info can be found](https://scikit-learn.org/stable/modules/cross_validation.html).
+**Model Comparison / Discussion:** Compare the two chosen algorithms on their prediction performance, using your chosen dataset.  Let us know what your performance metric is (e.g., accuracy, false negative rate (FNR), false positive rate (FPR), precision, recall, etc), and feel free to use more than one.  Use either (i) holdout validation, like we discussed in class , or (ii) 10-fold cross-validation.  SKLearn offers some one-liners to help with cross-validation; [more info can be found](https://scikit-learn.org/stable/modules/cross_validation.html).
 
 Note: for those algorithms that have hyper-parameters, i.e., all of the above except for LDA, you need to specify in your writeup which model selection procedure you used. Typically this should be with a [Grid Search](https://scikit-learn.org/stable/model_selection.html) over a small set of values.
 
