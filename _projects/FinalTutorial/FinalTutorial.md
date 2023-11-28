@@ -172,13 +172,13 @@ Here are some past short decks that are very good:
 3. Ila Keshishian and Bennett Kahn [NOLA Court Docket and Police Analysis](https://github.com/nmattei/cmps3160/blob/master/_projects/khan_final.pdf)
 2. Zachary Airington [It's all Fake News: Big 5 Personality Types and Conspiracy](https://github.com/nmattei/cmps3160/blob/master/_projects/zach_final.pdf)
 
-### Deliverable 1 Scoring Rubric (20 Points)
+### Deliverable 1: Final Presentation Scoring Rubric (30 Points)
 
-* (4 Points) *Professionalism*: Are the slides well constructed?  Are the graphs labeled and clear?  Did you speak clearly and have a plan for the discussion?
-* (4 Points) *Organization*: Was the talk clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  You should address each stage of the DataScience LifeCycle in this talk.
-* (4 Points) *Data and Motivation*: Does the talk make the reader believe the topic is important (a) in general and (b) with respect to data science? Does the data you selected allow you to answer the question you set out for?  Is there a clear and explainable question being answered by this data?
-* (4 Points) *Model and Science*: Did you clearly explain why you performed the analyses you chose?  Did you adequately defend any assumptions you made for your model?  Does your analysis support your conclusions?
-* (4 Points) *Peer Evaluation*: Were you present in class both days during presentations, did you provide feedback to the other students on their projects and ask questions on the message board.  Were you a good peer?
+* (5 Points) *Professionalism*: Are the slides well constructed?  Are the graphs labeled and clear?  Did you speak clearly and have a plan for the discussion?
+* (5 Points) *Organization*: Was the talk clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  You should address each stage of the DataScience LifeCycle in this talk.
+* (5 Points) *Data and Motivation*: Does the talk make the reader believe the topic is important (a) in general and (b) with respect to data science? Does the data you selected allow you to answer the question you set out for?  Is there a clear and explainable question being answered by this data?
+* (5 Points) *Model and Science*: Did you clearly explain why you performed the analyses you chose?  Did you adequately defend any assumptions you made for your model?  Does your analysis support your conclusions?
+* (10 Points) *Peer Evaluation*: Were you present in class both days during presentations, did you provide feedback to the other students on their projects and ask questions on the message board.  Were you a good peer?
 
 | Full    |    Good |  Okay |   Lacking   |  No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
@@ -228,7 +228,7 @@ In general, the tutorial should contain at least 1500 words of prose and 150 lin
 
 **You should make sure the top of your notebook is well organized and provides a clear motivation for the questions. You may need to rewrite significant parts of what you have done to accomplish this but you should consider the final notebook to be a portfolio piece! Remove things that are no longer true or necessary!**
 
-### Final Notebook Scoring Rubric (65 Points)
+### Final Notebook Scoring Rubric (85 Points)
 
 * (5 Points) *Motivation*: Does the tutorial make the reader believe the topic is important (a) in general and (b) with respect to data science?  Is there a clear, coherent argument for this at the beginning of the notebook? Is the model question well motivated.
 * (5 Points) *Understanding*: After reading the tutorial, does the reader understand the topic?
