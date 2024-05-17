@@ -101,12 +101,23 @@ In addition to the required zyBook, there are two texts that are **very strongly
 ## Evaluation Procedures and Grading Criteria
 This course will consist of seven distinct grading areas.  Note that all point values described below for individual assignments are subject to change. All points are points, relative percentages are given. More information about all the assignments can be found on the [Assignments Page](./assignments.md) and the [Final Tutorial Page](/_projects/FinalTutorial.md). All assignments and due dates are posted in [Tulane Canvas](https://tulane.instructure.com/).
 
-* 30 (5%)  In Class Activities, Participation, Attendance.
-* 100 (17%) Required Readings and Labs
-* 175 (25%) Projects
-* 55 (14%) Test 1
-* 55 (14%) Test 2
-* 185 (30%) Project (Milestone 1: 20, Pitch 1: 10, Milestone 2: 20, Pitch 2: 10, Project Presentation: 30, Final Notebook: 85)
+| Category               | Points | Percentage |      Group Percentage |
+|------------------------|--------|------------|----------------------:|
+| In Class / Attendance  | 30     | 3.53%      |                       |
+| 5 Labs                 | 50     | 5.88%      |                       |
+| 13 Zybooks Assignments | 65     | 7.65%      | Class, Readings, Labs |
+| 5 Discussions          | 25     | 2.94%      |                20.00% |
+| Project 0              | 25     | 2.94%      |                       |
+| Project 1              | 75     | 8.82%      |                       |
+| Project 2              | 75     | 8.82%      |              Projects |
+| Project 3              | 75     | 8.82%      |                29.41% |
+| Test 1                 | 100    | 11.76%     |                 Tests |
+| Test 2                 | 100    | 11.76%     |                23.53% |
+| Milestone 1            | 40     | 4.71%      |                       |
+| Milestone 2            | 50     | 5.88%      |                       |
+| Final Presentation     | 40     | 4.71%      |         Final Project |
+| Final Notebook         | 100    | 11.76%     |                27.06% |
+| Total                  | 850    | 100.00%    |               100.00% |
 
 An important aspect of this course is becoming a better coder. Hence all coding assignments will consist of a *Professionalism* component. One handy resource for this is [Arie’s Coding Guide](https://nmattei.github.io/cmps3140/codingguide). Note that this was written for Intro. to AI CMPS 3140 but many of the same issues apply to this course.
 
