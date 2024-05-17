@@ -18,7 +18,7 @@ Get the data from [Jennifer's Github here.](https://github.com/jennybc/gapminder
 
 (A mirror of that data is available in the project repository, in the Project 3 directory.)
 
-## Regression Analysis of Gapminder Data
+## Part 1: Regression Analysis of Gapminder Data
 
 If we run the following code you should see the data for this project.
 
@@ -96,9 +96,9 @@ Now we don't want to add these up, because they might cancel each other out, but
 
 The next set of questions have to do with the concept of [interaction terms in linear regression](https://developer.nvidia.com/blog/a-comprehensive-guide-to-interaction-terms-in-linear-regression/). In short, interaction terms enable you to examine whether the relationship between the target and the independent variable changes depending on the value of another independent variable. Before attempting this section you'll want to read the above link very closely. To claim this bonus you need to very clearly label this section of your notebook bonus!
 
-**Bonus Question 10 (2 Points)**: Based on this plot, should your regression model include an interaction term for continent *and* year? Why?
+**Bonus Question 10 (2 Points)**: Based on this plot, should your regression model include an interaction term between continent and year? Why?
 
-**Bonus Exercise 6 (2 Points)**: <em>Fit a linear regression model for life expectancy including a term for an interaction between continent and year.  Print out the model in a readable format, e.g., print the coefficients of the model (no need to plot).  Hint: adding interaction terms is a form of feature engineering, like we discussed in class (think about, e.g., using (a subset of) polynomial features here).</em>
+**Bonus Exercise 6 (2 Points)**: <em>Fit a linear regression model for life expectancy including a term for an interaction between continent and year.  Print out the model in a readable format, e.g., print the coefficients of the model (no need to plot).  Hint: Adding interaction terms is a form of feature engineering, like we discussed in class (think about, e.g., using (a subset of) polynomial features here).</em>
 
 **Bonus Question 11 (2 Points)**: <em>Are all parameters in the model significantly (in the p-value sense) different from zero? If not, which are not significantly different from zero? Other libraries (`statsmodels` or `patsy` may help you solve this problem)</em>
 
