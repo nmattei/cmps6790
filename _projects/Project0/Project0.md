@@ -8,7 +8,7 @@ published: true
 # Project 0: Computing Environment
 
 * **Posted:** August 23, 2023
-* **Last Revision:** August 23,2023
+* **Last Revision:** May 17, 2024
 
 Over the course of the semester, you will work with a variety of software packages, including Python, Pandas, Jupyter Notebook, and others. Installing those packages and getting started can often be a hassle because of software dependencies.  *However, maintaining your environment is an integral part of your job as a data scientist so you'll need to get used to it!  Luckily Docker makes this really easy and also allows you to share runnable code and increase reproducibility!*
 
@@ -114,7 +114,7 @@ Use the command listed above to start a docker container with Jupyter. On your l
 
 Follow the  `Project0` Notebook, and upload the `Project0.ipynb` file to Canvas. You can navigate to the [projects folder on GitHub if you want to see the file layout](https://github.com/nmattei/cmps6790/tree/main/_projects).
 
-### Grading Rubric
+### Grading Rubric (25 Points)
 
 * (5 Points) *Professionalism*: You have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them within the code or paper.
 * (5 Points) *Visiting Office Hours*: You have visited office hours of at least one instructor of this course *before the assignment is due!*.

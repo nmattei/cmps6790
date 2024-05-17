@@ -8,7 +8,7 @@ published: true
 # Project 1: Fly Me To The Moon
 
 * **Posted:** September 5, 2023
-* **Last Revision:** September 5,2023
+* **Last Revision:** May 17, 2024
 
 You've been hired by a new space weather startup looking to disrupt the space weather reporting business. Your first project is to provide better data about the top 50 solar flares recorded so far than that shown by your competitor [SpaceWeatherLive.com](https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares). To do this, they've pointed you to [this messy HTML page](http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html) from NASA ([available here also](http://www.hcbravo.org/IntroDataSci/misc/waves_type2.html)) where you can get the extra data your startup is going to post in your new spiffy site.
 
@@ -39,7 +39,6 @@ Use Python to scrape data for the top 50 solar flares shown in [SpaceWeatherLive
   * **Hint:** make-sure the above data is properly typecast and check the return type for the pandas function!
   * **Hint:** Maybe checkout the [Pandas read_html() function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_html.html)
 8.  Set reasonable names for the table columns, e.g., rank, x_classification, date, region, start_time, maximum_time, end_time, movie. `pandas.DataFrame.columns` makes this very simple.
-
 
 The result should be a data frame, with the first few rows as:
 
@@ -275,39 +274,15 @@ For Question 3 of part 2 provide:
 
 Submit the resulting .ipynb to [Canvas](https://tulane.instructure.com/)
 
-## Grading Rubric
-* (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
-  * You should, using Markdown in your notebook, clearly label all parts of the project.. 
-  * **Hint:** Copy this markdown into a notebook cells and *start from there!*.
-* (5 pts) Scrape Your Competitor's Data 
-  * Documentation and Markdown cells used appropriately.
-  * Code is correct to achieve task.
-  * Table is displayed.
-* (5 pts) Tidy the Top 50 Solar Flare Data 
-  * Documentation and Markdown cells used appropriately.
-  * Code is correct to achieve task.
-  * Table is displayed.
-* (5 pts) Scrape the NASA Data 
-  * Documentation and Markdown cells used appropriately.
-  * Code is correct to achieve task.
-  * Table is displayed.
-* (5 pts) Tidy the NASA the Table 
-  * Documentation and Markdown cells used appropriately.
-  * Code is correct to achieve task.
-  * Table is displayed.
-* (5 pts) Replication 
-  * Documentation and Markdown cells used appropriately.
-  * Code is correct to achieve task.
-  * Interpretation and discussion is appropriate.
-* (10 pts) Integration 
-  * Documentation and Markdown cells used appropriately.
-  * Code is correct to achieve task.
-  * Table is displayed.
-* (10 pts) Analysis 
-  * Documentation and Markdown cells used appropriately.
-  * Code is correct to achieve task.
-  * Graphs are clean and well labeled.
-  * Interpretation is reasonable and well written.
+## Grading Rubric (75 Points)
+* (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. You should, using Markdown in your notebook, clearly label all parts of the project.. **Hint:** Start from the outline of the project markdown into a notebook cells and *start from there!*.
+* (10 pts) *Scrape Your Competitor's Data*: Documentation and Markdown cells used appropriately, code is correct to achieve task, table is displayed.
+* (10 pts) *Tidy the Top 50 Solar Flare Data*: Documentation and Markdown cells used appropriately, code is correct to achieve task, table is displayed.
+* (10 pts) *Scrape the NASA Data*: Documentation and Markdown cells used appropriately, code is correct to achieve task, table is displayed.
+* (10 pts) *Tidy the NASA the Table*: Documentation and Markdown cells used appropriately, code is correct to achieve task, table is displayed.
+* (10 pts) *Replication*: Documentation and Markdown cells used appropriately, code is correct to achieve task, interpretation and discussion is appropriate and contained in a text cell.
+* (10 pts) *Integration*: Documentation and Markdown cells used appropriately, code is correct to achieve task, table is displayed.
+* (10 pts) *Analysis*: Documentation and Markdown cells used appropriately, code is correct to achieve task,graphs are clean and well labeled, interpretation is reasonable and well written.
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
