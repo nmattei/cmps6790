@@ -12,7 +12,7 @@ Each of these demo notebooks can be used in Colab to demo in class.
 |-------|--------|------|
 |01| Tools | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-01.ipynb)|
 |02| Data in Pandas | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-02.ipynb)|
-|03| Summary Stats adn Graphs | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps3160/blob/master/_demos/Demo-03.ipynb)|
+|03| Summary Stats and Graphs | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps3160/blob/master/_demos/Demo-03.ipynb)|
 |04| Regular Expressions and Web Scraping | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-04.ipynb)|
 |05| Pandas, Data Tables, and Tidy Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-05.ipynb)|
 |06| Merge, Join, and SQL | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-06.ipynb)|
