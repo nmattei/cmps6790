@@ -115,7 +115,7 @@ This course will consist of seven distinct grading areas.  Note that all point v
 | Test 2                 | 100    | 11.76%     |                23.53% |
 | Milestone 1            | 40     | 4.71%      |                       |
 | Milestone 2            | 50     | 5.88%      |                       |
-| Final Presentation     | 40     | 4.71%      |         Final Project |
+| Final Presentation     | 40     | 4.71%      |        Final Tutorial |
 | Final Notebook         | 100    | 11.76%     |                27.06% |
 | Total                  | 850    | 100.00%    |               100.00% |
 
