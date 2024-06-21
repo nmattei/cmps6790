@@ -8,7 +8,7 @@ published: true
 ## Final Tutorial
 
 * **Posted:** September 13, 2023
-* **Last Revision:** September 13,2023
+* **Last Revision:** June 21,2024
 
 In this course you will be responsible for generating a tutorial that will walk users through the entire data science pipeline: data curation, parsing, and management; exploratory data analysis; model building as either hypothesis testing and/or machine learning; and then the curation of a message or messages covering insights learned during the tutorial. Students may choose an application area and dataset(s) that are of interest to them; please feel free to be creative about this!
 
@@ -16,12 +16,10 @@ In the interest of building students' public portfolios, and in the spirit of "l
 
 **This tutorial may be completed in pairs or as a solo assignment, but after Milestone 1 groups are locked**. This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data. We will have several milestones associated with the final project including the following. These are each discussed below in more detail.
 
-1. **Milestone 1:** (20 Points) Identifying a dataset and establishing a GitHub.io Site, Extraction, Transform, and Load (ETL)
-2. **Pitch 1 (In Person!):** (10 Points) Present a one slide pitch of the datasets and problem you hope to address
-3. **Milestone 2:** (20 Points) Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA)
-4. **Pitch 2 (In Person!):** (10 Points) Present a one slide update including at least one graph related to your data
-3. **Deliverable 1:** (30 Points) In Class Presentation **(In Person!)**
-4. **Deliverable 2:** (85 Points) Final Website
+1. **Milestone 1:** (40 Points) Identifying a dataset and establishing a GitHub.io Site, Extraction, Transform, and Load (ETL)
+2. **Milestone 2:** (50 Points) Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA) and **Project Pitch 2:** Present a two slide project pitch including at least one graph related to your data
+3. **Deliverable 1:** (40 Points) In Class Presentation
+4. **Deliverable 2:** (100 Points) Final Website
 
 Important to all coding in this class is becoming a better coder! One handy resource for this is [Arie's Coding Guide](https://nmattei.github.io/cmps3140/codingguide). Note that this was written for Intro. to AI CMPS 3140 but many of the same issues apply to this course.
 
@@ -31,9 +29,9 @@ Important to all coding in this class is becoming a better coder! One handy reso
 
 ## Milestone 1: Groups, Data, Website, and Extraction, Transform, and Load (ETL)
 
-**For Milestone 1 you should generate a roughly 1 page writeup (~500 words) listing a partner and one to three datasets that you are considering working with and why. For each dataset you should generate at least one question you hope to answer with that data as well as a small amount of ETL including one interesting stat and one graph.**  This is just an outline to make sure you are thinking and is not a commitment in any way.  This will be published on your GitHub IO page so this also makes sure you’ve figured out how to get it uploaded!
+**For Milestone 1 you should generate a roughly 1 page writeup (~500 words) listing a partner (if you have one) and one to three datasets that you are considering working with and why. For each dataset you should generate at least one question you hope to answer with that data as well as a small amount of ETL including one interesting stat and one graph.**  This is just an outline to make sure you are thinking and is not a commitment in any way.  This will be published on your GitHub IO page so this also makes sure you’ve figured out how to get it uploaded!
 
-You must also include a short *collaboration plan* describing how you are working together, what technologies you are using, and when / how often you are meeting to work on this project.  Examples include: we setup a private Github repo to coordinate code and we met on Zoom X times…. or even we used [LiveShare for CS Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) [Teletype for Atom](https://teletype.atom.io/) or [RemoteCollab for Sublime](https://packagecontrol.io/packages/RemoteCollab). Failure to turn in a collaboration plan that shows you coordinated will be a loss of professionalism points. The turned in result will need to reflect the understanding of both students
+If you are working with a partner you must also include a short *collaboration plan* describing how you are working together, what technologies you are using, and when / how often you are meeting to work on this project.  Examples include: we setup a Github repo to coordinate code and we met on Zoom X times…. or even we used [LiveShare for CS Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) [Teletype for Atom](https://teletype.atom.io/) or [RemoteCollab for Sublime](https://packagecontrol.io/packages/RemoteCollab). Failure to turn in a collaboration plan that shows you coordinated will be a loss of professionalism points. The turned in result will need to reflect the understanding of both students
 
 You should load one of these datasets and parse it into shape using the principles of tidy data discussed in class and display the data table in a reasonable format so demonstrating what data you have. This is to show that you have figured out how to get the data into your system and does not need to be a final version, but it should show that you can read in **a data source** for your project.  You should clearly discuss the data and what challenges you had in formatting it.
 
@@ -77,42 +75,25 @@ GitHub provides a service called Pages <https://pages.github.com/> that provides
 
 These instructions are also given directly on the front page of <https://pages.github.com/>; following those instructions should be fine!
 
-**Note for 2022 CoLab Students:** CoLab does not have a "Download as HTML Button" -- in order to download your notebook as HTML you need to issue the following command in a cell of your notebook:
-
-```
-%%shell
-jupyter nbconvert --to html /PATH/TO/YOUR/NOTEBOOKFILE.ipynb
-```
-
-You will need to replace the path to your notebook file with the path to your actual notebook file. Once you issue that command in CoLab you will see a `NOTEBOOKFILE.html` file in the same directory that you issue the command in. You will need to download that file, then upload it to the repo that you created on github.io.
-
-~~In order to make your webpage open up the notebook and make sure everything is as you like it (cells and outputs are showing, no error messages, etc.).  Then go to `File >> Download As >>` and download the notebook as HTML.  This will save the HTML files to your disk.~~  You will then need to rename this to index.html and upload it into your github.io page.  Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like!
+In order to make your webpage open up the notebook and make sure everything is as you like it (cells and outputs are showing, no error messages, etc.). Then go to `File >> Download As >>` and download the notebook as HTML. This will save the HTML files to your disk. You will then need to rename this to index.html and upload it into your github.io page. Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like!
 
 **Note:** If you want to use your root `username.github.io` for a personal website or other thing, then please go ahead and hang the project Github page off the repository you create.
 
-### Milestone 1 Submission and Pitch Day 1
+### Milestone 1 Submission
 
 You should submit the notebook through [Canvas](https://tulane.instructure.com/).  In the absolute first cell of your notebook you must include your names, project title, and **a hyperlink to your webpage at github.io; the webpage must be publicly readable on the internet (i.e, live) and must contain the same work that is in the submitted notebook**.  That is: the first cell of your notebook must be a markdown cell with a hyperlink to the generated webpage up at `yourname.github.io`.  If this is not correct you will lose points. After this first cell you should continue with the other requirements including a description of your project, links to the data and other relevant resources, a collaboration plan, and the project goals.
 
-For the Pitch Day 1 you should follow the link on the [Canvas](https://tulane.instructure.com/) assignment and add a slide to the Google Slides deck which clearly includes your name, link to your website, the datasets you hope to use, and a question you are currently considering.
-
 *If you do this in a group, only one student per group needs to upload the notebook to canvas, but both names should be clearly at the beginning of the notebook.*
 
-### Milestone 1 Scoring Rubric (20 Points)
+### Milestone 1 Scoring Rubric (40 Points)
 
 If you want to see some good examples of **Milestone 1**, see [Example 1](https://github.com/nmattei/cmps3160/blob/master/_projects/nick_final.ipynb) and [Example 2](https://github.com/nmattei/cmps3160/blob/master/_projects/wilson_final.ipynb). Note that some of the required elements of Milestone 1 have changed so always check the grading rubric to make sure you have all the required elements!
 
-* (4 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
-* (4 Points) *Website*: Website is up, link was submitted and is correct.  Notebook is professional and clean, the names of the group members, a title for the project, and other good practices as this is *publicly posted*.
-* (4 Points) *Project Plan*: Project plan is in place, relevant data is identified and links are provided, there are draft questions or hypothesis that the student is going to explore.  Plan clearly explains how the data could be used to answer the question and addresses whether or not other data is needed.
-* (4 Points) *Extraction, Transform, and Load (ETL)*: At least one data set(s) are loaded correctly using web scraping other techniques. The data is discussed in terms of what it is and how it could be used to answer the question of study. Where the data comes from and how it is collected is clearly documented with links and other relevant details. The data is imported and tidy according to the principles discussed in class. Dtypes are set properly and displayed within the notebook, NaN's and other techniques are used following best practices discussed in class.
-* (4 Points) *Exploratory Data Analysis (EDA)*: You should do some light EDA on your data and show 3 - 5 interesting summary statistics or groups that relate to the questions you are asking of your data along with a brief justification as to why these statistics are interesting and relevant. You should also give at least 1 graphic which shows some interesting property or distribution of your data (skew, histogram, scatter plot) etc., and explain why this is relevant to your question.
-
-### Pitch Day 1 Scoring Rubric (10 Points)
-
-* (4 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
-* (3 Points) *Slide*: Your slide includes includes your name, link to your website, the datasets you hope to use, and a question you are currently considering.
-* (3 Points) *Pitch*: Your pitch takes no more than 2-3 mins, is coherent, and you are an active participant in class on the day of the pitch **in person only**.
+* (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
+* (5 Points) *Website*: Website is up, link was submitted and is correct.  Notebook is professional and clean, the names of the group members, a title for the project, and other good practices as this is *publicly posted*.
+* (10 Points) *Project Plan*: Project plan is in place, relevant data is identified and links are provided, there are draft questions or hypothesis that the student is going to explore.  Plan clearly explains how the data could be used to answer the question and addresses whether or not other data is needed.
+* (10 Points) *Extraction, Transform, and Load (ETL)*: At least one data set(s) are loaded correctly using web scraping other techniques. The data is discussed in terms of what it is and how it could be used to answer the question of study. Where the data comes from and how it is collected is clearly documented with links and other relevant details. The data is imported and tidy according to the principles discussed in class. Dtypes are set properly and displayed within the notebook, NaN's and other techniques are used following best practices discussed in class.
+* (10 Points) *Exploratory Data Analysis (EDA)*: You should do some light EDA on your data and show 3 - 5 interesting summary statistics or groups that relate to the questions you are asking of your data along with a brief justification as to why these statistics are interesting and relevant. You should also give at least 1 graphic which shows some interesting property or distribution of your data (skew, histogram, scatter plot) etc., and explain why this is relevant to your question.
 
 | Full    |    Good |  Okay |   Lacking   |  No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
