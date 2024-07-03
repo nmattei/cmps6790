@@ -37,6 +37,6 @@
 * (5 Points) *Professionalism*: You have written code that is interpretable – it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers. There are no unused cells, there are no errors or other distractions.
 * (5 Points) *Code and/or Written Answers*: Code: Code is present for all cells and code is correct and reasonable. Written answers are present for all cells where asked. Written answers are complete sentences and clear.
 
-| Full    |    Good |  Okay |   Lacking   |  No Marks |
-| : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
+| Full    |    Good |  Okay   |  Lacking   |  No Marks |
+| : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| 
 | You completely and fully met the criteria described. | You have met most of the criteria but lack sufficient depth and/or missed one or more minor pieces. | You have missed components of the required criteria and/or they are incorrect / inappropriate or lack depth. | You have missed major components of the required criteria and/or may of them are incorrect. | Missing or completely inadequate. |
