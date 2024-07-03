@@ -6,7 +6,7 @@ published: true
 
 Throughout the semester we will have a number of group discussions that ask you to respond to a reading or video as well as your fellow classmates. 
 
-## Discussion 1: Introductions and Interests
+## Discussion 1 - Introductions and Interests
 
 *Welcome!* This course brings together students from around the world with unique work, life, and educational experiences. You will get to engage and develop working relationships with many of these fellow students. This is your chance to learn a bit more about your peers.
 
@@ -25,18 +25,18 @@ Throughout the semester we will have a number of group discussions that ask you 
 * Once the file is uploaded, click the “Post” button. 
 * To comment on someone else’s video, click “Reply” and use a hashtag and their name.
 
-## Discussion 2: Concrete Datasets and Proposals
+## Discussion 2 - Concrete Datasets and Proposals
 
 As a means of kicking off a conversation and potentially teaming up for the tutorial, please write a few sentences for the following prompts.
 
 1. List two datasets (with links) that you are interested in exploring for the final tutorial.
 2. For each of these two datasets, give two concrete questions that you would be interested in exploring.
 
-## Discussion 3: Data Science Ethics Concerns
+## Discussion 3 - Data Science Ethics Concerns
 
-## Discussion 4: Final Tutorial Project Pitch Peer Feedback
+## Discussion 4 - Project Pitch Peer Feedback
 
-## Discussion 5: Final Tutorial Presentation Peer Feedback
+## Discussion 5 - Final Tutorial Presentation Peer Feedback
 
 ## Discussion Grading Rubric (5 Points Each)
 
