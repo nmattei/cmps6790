@@ -16,9 +16,10 @@ Each of these demo notebooks can be used in Colab to demo in class.
 |04| Regular Expressions and Web Scraping | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-04.ipynb)|
 |05| Pandas, Data Tables, and Tidy Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-05.ipynb)|
 |06| Merge, Join, and SQL | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-06.ipynb)|
-|07| Probability and Missing Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-07.ipynb)|
-|08| Transforming and Comparing Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-08.ipynb)|
-|09| Distance Functions and Comparing Entities | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-09.ipynb)|
-|10| Predictive Models: Regression | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-10.ipynb)|
-|11| Testing and Evaluating Models | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-11.ipynb)|
-|12| Predictive Models: Classification | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-12.ipynb)|
+| -- | Test 1 |  |
+|08| Probability and Missing Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-08.ipynb)|
+|09| Transforming and Comparing Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-09.ipynb)|
+|10| Distance Functions and Comparing Entities | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-10.ipynb)|
+|11| Machine Learning - Regression | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-11.ipynb)|
+|12| Machine Learning - Classification | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-12.ipynb)|
+|13| Testing and Evaluating Models | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_demos/Demo-13.ipynb)|
