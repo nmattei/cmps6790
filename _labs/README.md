@@ -24,6 +24,7 @@
 |04| Scraping | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_labs/Lab04/Lab04.ipynb)|
 |05| Filtering and Grouping Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_labs/Lab05/Lab05.ipynb)|
 |06| Merging and Joining Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_labs/Lab06/Lab06.ipynb)|
+|--| Test 1 | |
 |08| Probability and Missing Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_labs/Lab08/Lab08.ipynb)|
 |09| Transforming and Comparing Data | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_labs/Lab09/Lab09.ipynb)|
 |10| Distance Metrics | [![open in colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nmattei/cmps6790/blob/master/_labs/Lab10/Lab10.ipynb)|
