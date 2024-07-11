@@ -8,7 +8,7 @@ published: true
 ## Final Tutorial
 
 * **Posted:** September 13, 2023
-* **Last Revision:** June 21,2024
+* **Last Revision:** July 11, 2024
 
 In this course you will be responsible for generating a tutorial that will walk users through the entire data science pipeline: data curation, parsing, and management; exploratory data analysis; model building as either hypothesis testing and/or machine learning; and then the curation of a message or messages covering insights learned during the tutorial. Students may choose an application area and dataset(s) that are of interest to them; please feel free to be creative about this!
 
@@ -17,7 +17,7 @@ In the interest of building students' public portfolios, and in the spirit of "l
 **This tutorial may be completed in pairs or as a solo assignment, but after Milestone 1 groups are locked**. This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data. We will have several milestones associated with the final project including the following. These are each discussed below in more detail.
 
 1. **Milestone 1:** (40 Points) Identifying a dataset and establishing a GitHub.io Site, Extraction, Transform, and Load (ETL)
-2. **Milestone 2:** (50 Points) Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA) and **Project Pitch 2:** Present a two slide project pitch including at least one graph related to your data
+2. **Milestone 2:** (50 Points) Additional Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA) and **Project Pitch 1:** Present a two slide project pitch including at least one graph related to your data
 3. **Deliverable 1:** (40 Points) In Class Presentation
 4. **Deliverable 2:** (100 Points) Final Website
 
@@ -109,7 +109,7 @@ In addition you should also have at least 5 graphs and summary statistics/tables
 
 At the **end** of your notebook you should outline at least two ideas of what model you will be building to in the rest of your notebook. Example ideas include "We plan to use the time and date variable to predict parking violations in a zip code" or "We plan to test if there is a statistically significant positive correlation between income and happiness." **The graphs and summary statistics should inform what questions you have decided to ask here, if they don't, compute more summary statistics!** If you are ahead and have some results from an initial model, awesome!
 
-### Milestone 2 and Pitch Day 2
+### Milestone 2 and Pitch Day 1
 
 You should submit the notebook through [Canvas](https://tulane.instructure.com/).  The first cell of your notebook in the markdown **must be a hyperlink in your notebook to the webpage at github.io, and the webpage must be publicly readable on the internet (i.e, live)**.  That is: the first cell of your notebook must be a markdown cell with a hyperlink to the generated webpage up at `yourname.github.io`.  If this is not correct you will lose points.
 
@@ -119,18 +119,18 @@ For the Pitch Day 2 you should follow the link on the [Canvas](https://tulane.in
 
 **Note:** If the dataset you are using is not available from a website then it must also be uploaded to your GitHub site.  If I cannot download the data to verify the code you have submitted you will lose points.
 
-### Milestone 2 Scoring Rubric (20 Points)
+### Milestone 2 Scoring Rubric (40 Points)
 
-* (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
-* (5 Points) *Extraction, Transform, and Load (ETL)*: You are now using more than one dataset and they are both loaded correctly using web scraping other techniques.  The data is discussed in terms of what it is and how it could be used to answer the question of study.  Where the data comes from and how it is collected is clearly documented with links and other relevant details.  The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly and displayed within the notebook, NaN's and other techniques are used following best practices discussed in class.
-* (5 Points) *Exploratory Data Analysis (EDA)*: At least 5 graphs and/or summary statistics/tables including cross-tabulations, groups, measures of central tendency, and/or any of the other EDA techniques discussed showing that you have started to investigate your data and have an understanding of what is in your dataset.  Each of these pieces of analysis should have a corresponding markdown cell that clearly explains what is being shown and why.
-* (5 Points) *Model Questions*: You have identified at least two plausible models that you could build using your data and the graphs in your EDA section support continuing the investigation. You have clearly identified independent and dependent variables and appropriate test/prediction methodology for each question.
+* (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
+* (10 Points) *Extraction, Transform, and Load (ETL)*: You are now using more than one dataset and they are both loaded correctly using web scraping other techniques. The data is discussed in terms of what it is and how it could be used to answer the question of study.  Where the data comes from and how it is collected is clearly documented with links and other relevant details. The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly and displayed within the notebook, NaN's and other techniques are used following best practices discussed in class.
+* (10 Points) *Exploratory Data Analysis (EDA)*: At least 5 graphs and/or summary statistics/tables including cross-tabulations, groups, measures of central tendency, and/or any of the other EDA techniques discussed showing that you have started to investigate your data and have an understanding of what is in your dataset. Each of these pieces of analysis should have a corresponding markdown cell that clearly explains what is being shown and why.
+* (10 Points) *Model Questions*: You have identified at least two plausible models that you could build using your data and the graphs in your EDA section support continuing the investigation. You have clearly identified independent and dependent variables and appropriate test/prediction methodology for each question.
 
 ### Pitch Day 2 Scoring Rubric (10 Points)
 
 * (4 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.  In addition, you have written code that is interpretable -- it contains comments where needed to understand, variable names are reasonable, and code that is reasonable and efficient. You have followed directions to turn in the file, clearly labeling everything. You have cited all sources and how you used them in the written portion of your answers.
 * (3 Points) *Slide*: Your slide includes includes your name, link to your website, the datasets you hope to use, and proposed model with some initial EDA results.
-* (3 Points) *Pitch*: Your pitch takes no more than 2-3 mins, is coherent, and you are an active participant in class on the day of the pitch **in person only**.
+* (3 Points) *Pitch*: Your pitch takes no more than 2-3 mins, is coherent, and you are an active participant in class on the day of the pitch.
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
@@ -153,13 +153,13 @@ Here are some past short decks that are very good:
 3. Ila Keshishian and Bennett Kahn [NOLA Court Docket and Police Analysis](https://github.com/nmattei/cmps3160/blob/master/_projects/khan_final.pdf)
 2. Zachary Airington [It's all Fake News: Big 5 Personality Types and Conspiracy](https://github.com/nmattei/cmps3160/blob/master/_projects/zach_final.pdf)
 
-### Deliverable 1: Final Presentation Scoring Rubric (30 Points)
+### Deliverable 1: Final Presentation Scoring Rubric (40 Points)
 
 * (5 Points) *Professionalism*: Are the slides well constructed?  Are the graphs labeled and clear?  Did you speak clearly and have a plan for the discussion?
-* (5 Points) *Organization*: Was the talk clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  You should address each stage of the DataScience LifeCycle in this talk.
-* (5 Points) *Data and Motivation*: Does the talk make the reader believe the topic is important (a) in general and (b) with respect to data science? Does the data you selected allow you to answer the question you set out for?  Is there a clear and explainable question being answered by this data?
-* (5 Points) *Model and Science*: Did you clearly explain why you performed the analyses you chose?  Did you adequately defend any assumptions you made for your model?  Does your analysis support your conclusions?
-* (10 Points) *Peer Evaluation*: Were you present in class both days during presentations, did you provide feedback to the other students on their projects and ask questions on the message board.  Were you a good peer?
+* (10 Points) *Organization*: Was the talk clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  You should address each stage of the DataScience LifeCycle in this talk.
+* (10 Points) *Data and Motivation*: Does the talk make the reader believe the topic is important (a) in general and (b) with respect to data science? Does the data you selected allow you to answer the question you set out for?  Is there a clear and explainable question being answered by this data?
+* (10 Points) *Model and Science*: Did you clearly explain why you performed the analyses you chose?  Did you adequately defend any assumptions you made for your model?  Does your analysis support your conclusions?
+* (5 Points) *Peer Evaluation*: Were you present in class both during presentations, did you provide feedback to the other students on their projects and ask questions? Were you a good peer?
 
 | Full    |    Good |  Okay |   Lacking   |  No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
@@ -167,40 +167,8 @@ Here are some past short decks that are very good:
 
 ### Schedule
 
-#### Tuesday Dec 5, 2023
+**TBD**
 
-| Name               | Title                                                                                                      | Website                                           |
-|--------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Li Zechen          | Exploratory Analysis of Car dealer and CO2 Emission in United States                                       | https://zcli48.github.io/                         |
-| Jiayi Xu           | A Comprehensive Study on Adult Sleep Health and Patterns                                                   | https://jiay1xu.github.io/                        |
-| Mauryan Uppalapati | Unmasking the Overdose Crisis: Connections Between COVID-19 Restrictions, Unemployment, and Drug Overdoses | N/A                                               |
-| Tanyi Xu           | Stocks operating recommendation strategies project                                                         | https://xutianyi01.github.io/                     |
-| Will Rodman        | Analyzing the Impact of OPEC Crude Oil Production Quotas on Global Markets                                 | https://willcrodman.github.io/                    |
-| Leonardo Matone    | Congressional Voting Patterns                                                                              | https://v993.github.io/                           |
-| Emma LeBouef       | Spotify Music Classification                                                                               | https://emmalebouef.github.io/spotify/            |
-| Xinzhao You        | Electric Vehicles data analysis                                                                            | https://xinzhaoy.github.io/cmps6790_project/      |
-| Stella Wroblewski  | Food, Quality of Life, and Happiness                                                                       | https://swroblewski-tu.github.io/                 |
-| Yibin Hu           | Crime Pattern in Los Angeles (2020-Present)                                                                | https://yibhu.github.io/                          |
-| John Collopy       | Finding Order in Mixed Martial Arts                                                                        | https://jcollopy-tulane.github.io/                |
-| Rebecca Kahler     | Heisman Candidate Prospect and Winner Analysis                                                             | N/A                                               |
-| Harper Lyon        | The Distribution of Agricultural Industries Across the United State                                        | https://harplyon.github.io/CMPS6790FinalTutorial/ |
-
-#### Thursday Dec 7, 2023
-
-| Name                         | Title                                                                                       | Website                                                             |
-|------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Yunbei Zhang                 | Unveiling the Secrets of Victory: A Deep Dive into League of Legends Gameplay Metrics       | https://zybeich.github.io/                                          |
-| Disa Sariola                 | Callback Rates and Unemployment in 11 States                                                | https://alexandrasar.github.io/CMPS6790_Project/                    |
-| Yunsung Chung                | Electric Vehicle Analysis                                                                   | https://cys1102.github.io/                                          |
-| Hayden Outlaw and Joe Wagner | Investigating Relationship Between Weather and Criminal Offense Trends in New Orleans       | https://outlawhayden.github.io/weather-crime/                       |
-| Soraya J Labranche           | Health Expenditure, Food Environment, State Budgets                                         | N/A                                                                 |
-| Oliver Orejola               | Stock Data                                                                                  | https://oliverorejolacmps6790.github.io/                            |
-| Daniel Wang                  | Exploring Advantages of Using TopPIC for Top-down MS Proteomics through Ovarian Cancer Data | https://todanielwang.github.io/projects/datascience/milestone1.html |
-| Lorraine Steigner            | Mediterranean Pottery                                                                       | https://llsteigner.github.io/cmps6790/                              |
-| Josh McCoy and Jim Haines    | Madness of March                                                                            | https://joshmccoy2.github.io/NCAA_March_Madness/                    |
-| Kiran Shrestha               | Channnel The Bad Ones Out                                                                   | https://stharajkiran.github.io/                                     |
-| Chase Frederick              | Political Economy & Data Analysis: Captone Paper!                                           | N/A                                                                 |
-| Khandokar Shakib             | Predicting NBA MVP Using Machine Learning                                                   | https://kshakib22.github.io/kshakib.github.io/                      |
 
 **Note:** You must upload your slides through [Canvas](https://tulane.instructure.com/) **at least 2 hours before class time on the day of your presentation**.  Failure to do this will result in a minimum of all points lost for *Professionalism*. You will be required to be in person to present unless you have made other arrangements with me. I will compile all slides into one deck for the individual presentation days.
 
@@ -216,17 +184,17 @@ In general, the tutorial should contain at least 1500 words of prose and 150 lin
 
 **You should make sure the top of your notebook is well organized and provides a clear motivation for the questions. You may need to rewrite significant parts of what you have done to accomplish this but you should consider the final notebook to be a portfolio piece! Remove things that are no longer true or necessary!**
 
-### Final Notebook Scoring Rubric (85 Points)
+### Final Notebook Scoring Rubric (100 Points)
 
-* (10 Points) *Prose/Organization/Professionalism*: Does the prose in the Markdown portion of the .ipynb add to the reader’s understanding of the tutorial?  Are the graphs labeled and clear? Is the writing clear and explained well. Was the notebook clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  There should be a section heading for each step of the Data Science LifeCycle.
+* (15 Points) *Prose/Organization/Professionalism*: Does the prose in the Markdown portion of the .ipynb add to the reader’s understanding of the tutorial?  Are the graphs labeled and clear? Is the writing clear and explained well. Was the notebook clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  There should be a section heading for each step of the Data Science LifeCycle.
 * (10 Points) *Motivation/Understanding*: Does the tutorial make the reader believe the topic is important (a) in general and (b) with respect to data science?  Is there a clear, coherent argument for this at the beginning of the notebook? Is the model question well motivated. After reading the tutorial, does the reader understand the topic?
 * (10 Points) *Resources/Links*: Does the tutorial “call out” and specifically provide links to other resources that would help the reader understand basic concepts, deep dive, related work, etc? Are all datasets pointed to by correct and well formatted links.
 * (10 Points) *Data*: Is the data selected appropriate? is it loaded in a coherent way? clean and Tidy? Dtypes set? are there issues in the data and if so are they explained? is enough data present and if not, why not? Is the data manipulated properly and coherently?
 * (10 Points) *Code*: Does the code help solidify understanding, is it well documented, and does it include helpful examples?  Is the code correct?  Did you show that the results of intermediate steps are correct in the tutorial?  Is there enough code to be complex enough to require a tutorial?
 * (10 Points) *Exploration and Analysis*: Is the data explored and explained in a coherent way, are there graphs, tables, summary statistics, and other methods of analysis present that let the user understand the data in a coherent and clear way? Are these graphs well labeled, clear, and show trends/information of interest? Note that just throwing 20 graphs in is not interesting, if a graph or piece of analysis is not answering a question, it should be removed.
 * (10 Points) *Science/Model*: Did you clearly explain why you built the model you chose?  Did you adequately defend any assumptions you made? Does your analysis (graphs and data) illustrate why the model was selected and tested? Is the model correct and follow proper data science techniques?
-* (10 Points) *Conclusions/Recommendations*: Is there a conclusions section that carefully and clearly explains the outcomes of the analysis and what recommendations can be made? Is this conclusion valid/reasonable?
-* (5 Points) *Subjective Evaluation*: If somebody linked to this tutorial from Hacker News, Reddit, Towards Data Science, or some other general interest website, would people actually read the whole thing?
+* (15 Points) *Conclusions/Recommendations*: Is there a conclusions section that carefully and clearly explains the outcomes of the analysis and what recommendations can be made? Is this conclusion valid/reasonable?
+* (10 Points) *Subjective Evaluation*: If somebody linked to this tutorial from Hacker News, Reddit, Towards Data Science, or some other general interest website, would people actually read the whole thing?
 
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
