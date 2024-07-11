@@ -8,7 +8,7 @@ published: true
 # Project 3: GapMinder Data
 
 * **Posted:** November 6, 2023
-* **Last Revision:** July 11, 2023
+* **Last Revision:** July 11, 2024
 
 For this project you will practice and experiment linear regression using data from [gapminder.org]("http://gapminder.org"). We recommend spending a little time looking at material there, it is quite an informative site.
 
