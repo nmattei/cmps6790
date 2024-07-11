@@ -8,9 +8,9 @@ published: true
 # Project 2: Moneyball!
 
 * **Posted:** October 11, 2023
-* **Last Revision:** October 11, 2023
+* **Last Revision:** July 10, 2024
 
-In this project you will apply your data wrangling and exploratory data analysis skills to baseball data. In particular, we want to know how well did Moneyball work for the Oakland A's. Was it worthy of a movie?
+In this project you will apply your data wrangling and exploratory data analysis skills to baseball data. In particular, we want to know how well did *Moneyball* work for the Oakland A's. Was it worthy of a movie?
 
 ### Groups and Collaboration Plan
 
@@ -85,12 +85,13 @@ We want to understand how efficient teams have been historically at spending mon
 
 The data you need to answer these questions is in the Salaries and Teams tables of the database.
 
-#### Problem 1
+#### Problem 1.1
 
 **Using SQL queries only** compute a relation containing the total payroll and winning percentage (number of wins / number of games * 100) for each team (that is, for each teamID and yearID combination). You should include other columns that will help when performing EDA later on (e.g., franchise ids, number of wins, number of games).
 
 **Hint:** Take a good look at the [SQLite Documentation](https://www.sqlitetutorial.net/).
 
+#### Explanation 1.2
 Include as a cell the SQL code you used to create this relation. As a markdown cell, describe how you dealt with any missing data in these two relations. Specifically, indicate if there is missing data in either table, and how the type of join you used determines how you dealt with this missing data. 
 
 **If you read the whole database into a file you will lose points, the SQL query you write should do all processing on the server side as discussed in class.**
@@ -105,23 +106,23 @@ Using the dataframe you made in Part 1, work on Part 2 and Part 3.
 
 ### Payroll Distribution
 
-#### Problem 2
+#### Problem 2.1
 
 Write code to produce *a single plot* that illustrates the distribution of payrolls across teams conditioned on time (from 1990-2014).  This plot should be clear and interpretable.  You will be graded on the clairty of the plot you decide to make.
 
 Write code to produce *a single scatter plot* that shows winning percentage as a function of total payroll.  That is, the total payroll on the x-axis and win percentage is on the y axis.
 
-#### Question 1
+#### Question 2.2
 
 What statements can you make about the distribution of payrolls conditioned on time based on these plots? Remember you can make statements in terms of central tendency, spread, and other statistics discussed in class.
 
-#### Problem 3
+#### Problem 2.3
 
-Write code to produce plot(s) that specifically show at least one of the statements you made in Question 1. For example, if you make a statement that there is a trend for payrolls to decrease over time, make a plot of a statistic for central tendency (e.g., mean payroll) vs. time to show that specifically.  Aka, back up your statement with data and an effective visualization!
+Write code to produce plot(s) that specifically show at least one of the statements you made in Question 2.2. For example, if you make a statement that there is a trend for payrolls to decrease over time, make a plot of a statistic for central tendency (e.g., mean payroll) vs. time to show that specifically.  Aka, back up your statement with data and an effective visualization!
 
 ### Correlation Between Payroll and Winning Percentage
 
-#### Problem 4
+#### Problem 2.4
 
 Write code to discretize year into five time periods (you can use [pandas.cut](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.cut.html) to accomplish this) and then make a set of scatter plot showing mean winning percentage (y-axis) vs. mean payroll (x-axis) for each of the five time periods.  Your time periods should be roughly 1990-1995, 1995-2000, 2000-2005, 2005-2010, 2010-2014.
 
@@ -131,7 +132,7 @@ Label each point with the team or franchise [using something like this](https://
 
 **Hint:** To do this you may need to extract the axis object from the plotting call and add things to it as we did in Lab 5.
 
-#### Question 2
+#### Question 2.5
 
 What can you say about team payrolls across these periods? Are there any teams that standout as being particularly good at paying for wins across these time periods? What can you say about the Oakland A's spending efficiency across these time periods and specifically in the Moneyball period of 2000-2005.
 
@@ -141,7 +142,7 @@ What can you say about team payrolls across these periods? Are there any teams t
 
 It looks like comparing payrolls across years is problematic so let's do a transformation that will help with these comparisons.
 
-#### Problem 5
+#### Problem 3.1
 
 Create a new variable in your dataset that standardizes payroll conditioned on year.  For this we will compute the [Z-score of the variables](https://en.wikipedia.org/wiki/Standard_score). So, this column for team `i` in year `j` should equal:
 
@@ -156,19 +157,19 @@ You must display the head of this DataFrame in your notebook to receive credit.
 
 **Hint: Recall our lab on filtering and transforming data!  You may also want to check out the [Transform function](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#transformation)**
 
-#### Problem 6
+#### Problem 3.2
 
-Repeat the same plots as Problem 4, but use this new standardized payroll variable.  Remember that you should have one plot for each of the 5 time periods.
+Repeat the same plots as Problem 2.4, but use this new standardized payroll variable.  Remember that you should have one plot for each of the 5 time periods.
 
-#### Question 3
+#### Question 3.3
 
-Discuss how the plots from Problem 4 and Problem 6 reflect the transformation you did on the payroll variable.  Specifically, what is easier to see, what is harder to see?  Are any relationships more apparent?
+Discuss how the plots from Problem 2.4 and Problem 3.2 reflect the transformation you did on the payroll variable.  Specifically, what is easier to see, what is harder to see?  Are any relationships more apparent?
 
 ### Expected Wins
 
 It's hard to see global trends across time periods using these multiple plots, but now that we have standardized payrolls across time, we can look at a single plot showing correlation between winning percentage and payroll across time.
 
-#### Problem 7
+#### Problem 3.4
 
 Make a **single scatter plot** of winning percentage (y-axis) vs. standardized payroll (x-axis). Add a regression line to highlight the relationship.  You do not need to label the teams in this plot.
 
@@ -182,7 +183,7 @@ $$ expected\_win\_pct_{ij} = 50 + 2.5 \times standardized\_payroll_{ij} $$
 
 Using this result, we can now create a single plot that makes it easier to compare teams efficiency. The idea is to create a new measurement unit for each team based on their winning percentage and their expected winning percentage that we can plot across time summarizing how efficient each team is in their spending.
 
-#### Problem 8
+#### Problem 3.5
 
 Create a new field to compute each team's spending efficiency, given by:
 
@@ -192,9 +193,9 @@ for team `i` in year `j`, where `expected_win_pct` is given above.
 
 Make a line plot with year on the x-axis and efficiency on the y-axis. A good set of teams to plot are Oakland, the New York Yankees, Boston, Atlanta and Tampa Bay (teamIDs OAK, BOS, NYA, ATL, TBA).
 
-#### Question 4
+#### Question 3.6
 
-What can you learn from this plot compared to the set of plots you looked at in Question 2 and 3? How good was Oakland's efficiency during the Moneyball period?
+What can you learn from this plot compared to the set of plots you looked at in Question 2.4 and 3.3? How good was Oakland's efficiency during the Moneyball period?
 
 ## Submission
 
@@ -204,27 +205,26 @@ All axes in plots should be labeled in an informative manner. Your answers to an
 
 Submit this completed notebook which contains your answers as markdown cells to [Canvas](https://tulane.instructure.com/)
 
-## Grading Rubric
-
+## Grading Rubric (75 Points)
 Note that code that does not work will not be graded and you will receive a 0 for that section.  We reserve the right to deduct points for things like general sloppiness of the notebook, poor labels, unlabeled axes, etc.  You should include markdown cells to break up your notebook and **clearly label** the problems and questions below.
 
 * (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
-* (7.5 Points) Part 1: *Wrangling*
-  * (5 Points) Problem 1: You used a single SQL query and display the correct dataset.
-  * (2.5 Points) Discussion of how missing data is dealt with is present.
- * (12.5 Points) Part 2: *Exploratory Data Analysis* 
-   * (2.5 Points) Problem 2: You have produced the plot to show the distribution of payrolls across time.
-   * (2.5 Points) Question 1: There is a markdown cell explaining the statements about this plot and the statements are reasonable.
-   * (2.5 Points) Problem 3: A plot exists and is well labeled to support the statements.
-   * (2.5 Points) Problem 4: Code is present to discretize the data into 5 time periods.  Plot is present of winning percentage as a function of mean payroll.
-   * (2.5 Points) Question 2: Markdown cell explains results for Question 2 about trends over time.
-* (25 Points) Part 3: *Data Transformations*
-  * (5 Points) Problem 5: Code is present to achieve standardized payroll and is reasonable and correct.
-  * (5 Points) Problem 6: Plots are present that compare the old and new payroll variables.
-  * (2.5 Points) Question 3: Markdown cell addresses differences between Problem 4 and Problem 6.
+* (10 Points) Part 1: *Wrangling*
+  * (5 Points) Problem 1.1: You used a single SQL query and display the correct dataset.
+  * (5 Points) Explanation 1.2: Discussion of how missing data is dealt with is present.
+ * (25 Points) Part 2: *Exploratory Data Analysis* 
+   * (5 Points) Problem 2.1: You have produced the plot to show the distribution of payrolls across time.
+   * (5 Points) Question 2.2: There is a markdown cell explaining the statements about this plot and the statements are reasonable.
+   * (5 Points) Problem 2.3: A plot exists and is well labeled to support the statements.
+   * (5 Points) Problem 2.4: Code is present to discretize the data into 5 time periods.  Plot is present of winning percentage as a function of mean payroll.
+   * (5 Points) Question 2.5: Markdown cell explains results for Question 2.2 about trends over time.
+* (30 Points) Part 3: *Data Transformations*
+  * (5 Points) Problem 3.1: Code is present to achieve standardized payroll and is reasonable and correct.
+  * (5 Points) Problem 3.2: Plots are present that compare the old and new payroll variables.
+  * (5 Points) Question 3.3: Markdown cell addresses differences between Problem 2.4 and Problem 2.6.
   * (5 Points) Problem 7: Plot and regression line are present and code is correct and reasonable.
   * (5 Points) Problem 8: Code and plot are present and correct to measure the spending efficiency.
-  * (2.5 Points) Question 4: Markdown cell is present that discusses the findings, it is reasonable and correct.
+  * (5 Points) Question 4: Markdown cell is present that discusses the findings, it is reasonable and correct.
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
@@ -232,5 +232,5 @@ Note that code that does not work will not be graded and you will receive a 0 fo
 
 ### Credits
 
-Thanks to [John P. Dickerson](http://jpdickerson.com/) for the Project writeup.
+Thanks to [John P. Dickerson](http://jpdickerson.com/) for the Project idea and initial writeup.
 
