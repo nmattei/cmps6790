@@ -16,7 +16,7 @@ Throughout the semester we will have a number of group discussions that ask you 
 1. Where do you currently reside (state or country)?
 2. What is your professional background?
 3. What is a hobby that you enjoy doing?
-4. What are your long-term career goals?
+4. What would you like to learn or achieve from this course?
 
 *Upload Your Video and Respond!* 
 * Ideally, upload your video as an MP4 file.
@@ -34,9 +34,34 @@ As a means of kicking off a conversation and potentially teaming up for the tuto
 
 ## Discussion 3 - Data Science Ethics Concerns
 
+One of the biggest aspects of applied data science is questions around data privacy and the societal implications there of. Let's engage in a discussion around these issues by looking at the following articles.
+
+1. [Engaging the Ethics of Data Science In Practice, Communications of the ACM, 2017.](https://cacm.acm.org/magazines/2017/11/222176-engaging-the-ethics-of-data-science-in-practice/)
+2. [Palantir Has Secretly Been Using New Orleans to Test It's Predictive Policing Technology, The Verge, 2018.](https://www.theverge.com/2018/2/27/17054740/palantir-predictive-policing-tool-new-orleans-nopd)
+3. [Welcome to the Age of Privacy Nihilism, The Atlantic, 2018.](https://www.theatlantic.com/technology/archive/2018/08/the-age-of-privacy-nihilism-is-here/568198/)
+4. [What Does GDPR Mean for Me? An Explainer. The Conversation, 2018.](https://theconversation.com/what-does-gdpr-mean-for-me-an-explainer-96630)
+
+These are four somewhat different articles. The first deals with some issues in DS education and things to think about as you go forth and work with data. The second is an example (and a local one) of some of the unchecked issues surrounding data. The last two deal with privacy in the modern age, the implications of joining data together (what we just learned to do!) and some new regulations in the EU about data privacy.
+
+There are many many more articles out there that deal with data and its applications to a host of problems. Feel free to post about a different article that comes from a major media outlet or reputable journal (with citation).
+
+1. For ONE of the articles (or one you find), write a post about what you felt was the main take away, and how it relates to an issue in your planned professional life or even your personal/student life now. What are the data or ethical issues at play? Is there anything that you can identify to change?
+
+2. Followup with TWO other people's posts -- is there something that was overlooked from the articles, is there another resource or perspective to their post you can bring? You should try to comment on someone writing about an article other than the one you did.
+
 ## Discussion 4 - Project Pitch Peer Feedback
 
+As a means of providing more feedback to other students and helping them develop their projects please do the following. Note that comments should be substantive and be something to which one can reply. Just posting *interesting presentation* or similar will receive no points. Ask a question about the model, suggest an additional analysis, or critique an assumption!
+
+1. Comment or post a question on two presentation.
+2. Followup on two *different* post for a *different project* and provide additional feedback or thoughts.
+
 ## Discussion 5 - Final Tutorial Presentation Peer Feedback
+
+As a means of providing more feedback to other students and helping them develop their projects please do the following. Note that comments should be substantive and be something to which one can reply. Just posting *interesting presentation* or similar will receive no points. Ask a question about the model, suggest an additional analysis, or critique an assumption!
+
+1. Comment or post a question on two presentation.
+2. Followup on two *different* post for a *different project* and provide additional feedback or thoughts.
 
 ## Discussion Grading Rubric (5 Points Each)
 
