@@ -8,7 +8,7 @@ published: true
 # Project 3: GapMinder Data
 
 * **Posted:** November 6, 2023
-* **Last Revision:** November 6, 2023
+* **Last Revision:** July 11, 2023
 
 For this project you will practice and experiment linear regression using data from [gapminder.org]("http://gapminder.org"). We recommend spending a little time looking at material there, it is quite an informative site.
 
@@ -39,9 +39,9 @@ data.head()
 
 For Part 1 you will explore how life expectancy has changed over 50 years across the world, and how economic measures like gross domestic product (GDP) are related to it. Note that for all questions you should have a cell in your notebook that answers that question along with the required plots.
 
-**Exercise 1**: Make a scatter plot of life expectancy across time.
+**Exercise 1.1**: Make a scatter plot of life expectancy across time.
 
-**Question 1**: Is there a general trend (e.g., increasing or decreasing) for life expectancy across time? Is this trend linear? (answering this qualitatively from the plot, you will do a statistical analysis of this question shortly)
+**Question 1.2**: Is there a general trend (e.g., increasing or decreasing) for life expectancy across time? Is this trend linear? (answering this qualitatively from the plot, you will do a statistical analysis of this question shortly)
 
 A slightly different way of making the same plot is looking at the distribution of life expectancy across countries as it changes over time:
 
@@ -61,56 +61,58 @@ This type of plot is called a <em>violin plot</em>, and it displays the distribu
 
 Note that in order for the example code above, you will have to wrangle the data using Pandas. The way I did it was to create an array for each year, storing the Life Expectancy values for that year, then collected those arrays into a list: `life_exp_per_year`. It's not the only way of doing it, but it's how I first thought of it.
 
-**Question 2**: How would you describe the distribution of life expectancy across countries for individual years? Is it skewed, or not? Unimodal or not? Symmetric around it’s center?
+**Question 1.3**: How would you describe the distribution of life expectancy across countries for individual years? Is it skewed, or not? Unimodal or not? Symmetric around it’s center?
 
 Based on the Violin plot you made, consider the following questions.
 
-**Question 3**: Suppose I fit a linear regression model of life expectancy vs. year (treating it as a continuous variable), and test for a relationship between year and life expectancy, will you reject the null hypothesis of no relationship? (do this without fitting the model yet. I am testing your intuition. Just write out the answer.)
+**Question 1.4**: Suppose I fit a linear regression model of life expectancy vs. year (treating it as a continuous variable), and test for a relationship between year and life expectancy, will you reject the null hypothesis of no relationship? (do this without fitting the model yet. I am testing your intuition. Just write out the answer.)
 
 The next set of questions ask you to reason about the *residuals* of a model. You can learn more about [residuals](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/a/introduction-to-residuals) here from Khan Academy, but in a nutshell residuals are the errors in every prediction that you make. Specifically, NIST says that ``Residuals are estimates of experimental error obtained by subtracting the observed responses from the predicted responses.
 The predicted response is calculated from the chosen model, after all the unknown model parameters have been estimated from the experimental data.'' You should have a read of the [NIST Residuals Article Here](https://www.itl.nist.gov/div898/handbook/pri/section2/pri24.htm).
 
 Now we don't want to add these up, because they might cancel each other out, but looking at a plot of the residuals can help us understand *where* our model is making errors. In fact, there are some handy [SciKit Functions for this](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.PredictionErrorDisplay.html)!
 
-**Question 4**: What would a violin plot of residuals from the linear model in Question 3 vs. year look like? (Again, don’t do the analysis yet, answer this intuitively).
+**Question 1.5**: What would a violin plot of residuals from the linear model in Question 1.3 vs. year look like? (Again, don’t do the analysis yet, answer this intuitively).
 
-**Question 5**: According to the assumptions of the linear regression model, what *should* that violin plot look like?  That is, consider the assumptions the linear regression model you used assumes (e.g., about noise, about input distributions, etc); do you think everything is okay?
+**Question 1.6**: According to the assumptions of the linear regression model, what *should* that violin plot look like?  That is, consider the assumptions the linear regression model you used assumes (e.g., about noise, about input distributions, etc); do you think everything is okay?
 
-**Exercise 2**: Fit a linear regression model using, e.g., the `LinearRegression` function from [Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) or the closed-form solution, for life expectancy vs. year (as a continuous variable).  There is no need to plot anything here, but please print the fitted model out in a readable format.
+**Exercise 1.7**: Fit a linear regression model using, e.g., the `LinearRegression` function from [Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) or the closed-form solution, for life expectancy vs. year (as a continuous variable).  There is no need to plot anything here, but please print the fitted model out in a readable format.
 
-**Question 6**: On average, by how much does life expectancy increase every year around the world? You should compute and print this value nicely.
+**Question 1.8**: On average, by how much does life expectancy increase every year around the world? You should compute and print this value nicely.
 
-**Question 7**: Do you reject the null hypothesis of no relationship between year and life expectancy? Why?
+**Question 1.9**: Do you reject the null hypothesis of no relationship between year and life expectancy? Why?
 
-**Exercise 3**: Make a violin plot of residuals vs. year for the linear model from Exercise 2.
+**Exercise 1.10**: Make a violin plot of residuals vs. year for the linear model from Exercise 2.
 
-**Question 8**: Does the plot of Exercise 3 match your expectations (as you answered Question 4)?
+**Question 1.11**: Does the plot of Exercise 3 match your expectations (as you answered Question 4)?
 
-**Exercise 4**: Make a boxplot (or violin plot) of model residuals vs. continent.
+**Exercise 1.12**: Make a boxplot (or violin plot) of model residuals vs. continent.
 
-**Question 9**: Is there a dependence between model residual and continent? If so, what would that suggest when performing a regression analysis of life expectancy across time?
+**Question 1.13**: Is there a dependence between model residual and continent? If so, what would that suggest when performing a regression analysis of life expectancy across time?
 
-**Exercise 5**: As in the Moneyball project, make a scatter plot of life expectancy vs. year, grouped by continent, and add a regression line.  The result here can be given as either one scatter plot per continent, each with its own regression line, or a single plot with each continent's points plotted in a different color, and one regression line per continent's points.  The former is probably easier to code up.
+**Exercise 1.14**: As in the Moneyball project, make a scatter plot of life expectancy vs. year, grouped by continent, and add a regression line.  The result here can be given as either one scatter plot per continent, each with its own regression line, or a single plot with each continent's points plotted in a different color, and one regression line per continent's points.  The former is probably easier to code up.
 
-### Bonus Questions
+### Part 2: Interaction Terms
 
-The next set of questions have to do with the concept of [interaction terms in linear regression](https://developer.nvidia.com/blog/a-comprehensive-guide-to-interaction-terms-in-linear-regression/). In short, interaction terms enable you to examine whether the relationship between the target and the independent variable changes depending on the value of another independent variable. Before attempting this section you'll want to read the above link very closely. To claim this bonus you need to very clearly label this section of your notebook bonus!
+The next set of questions have to do with the concept of [interaction terms in linear regression](https://developer.nvidia.com/blog/a-comprehensive-guide-to-interaction-terms-in-linear-regression/) which we have seen in the readings. In short, interaction terms enable you to examine whether the relationship between the target and the independent variable changes depending on the value of another independent variable. Before attempting this section you'll want to read the above link very closely.
 
-**Bonus Question 10 (2 Points)**: Based on this plot, should your regression model include an interaction term between continent and year? Why?
+**Question 2.1**: Based on this plot, should your regression model include an interaction term between continent and year? Why?
 
-**Bonus Exercise 6 (2 Points)**: <em>Fit a linear regression model for life expectancy including a term for an interaction between continent and year.  Print out the model in a readable format, e.g., print the coefficients of the model (no need to plot).  Hint: Adding interaction terms is a form of feature engineering, like we discussed in class (think about, e.g., using (a subset of) polynomial features here).</em>
+**Exercise 2.2**: Fit a linear regression model for life expectancy including a term for an interaction between continent and year.  Print out the model in a readable format, e.g., print the coefficients of the model (no need to plot).  Hint: Adding interaction terms is a form of feature engineering, like we discussed in class (think about, e.g., using (a subset of) polynomial features here).
 
-**Bonus Question 11 (2 Points)**: <em>Are all parameters in the model significantly (in the p-value sense) different from zero? If not, which are not significantly different from zero? Other libraries (`statsmodels` or `patsy` may help you solve this problem)</em>
+**Question 2.3**: Are all parameters in the model significantly (in the p-value sense) different from zero? If not, which are not significantly different from zero? Other libraries (`statsmodels` or `patsy` may help you solve this problem).
 
-**Bonus Question 12 (2 Points)**: <em>On average, by how much does life expectancy increase each year for each continent? (Provide code to answer this question by extracting relevant estimates from model fit)</em>
+**Question 2.4**: On average, by how much does life expectancy increase each year for each continent? (Provide code to answer this question by extracting relevant estimates from model fit).
 
-**Bonus Exercise 7 (2 Points)**: <em>Make a residuals vs. year violin plot for the interaction model. Comment on how well it matches assumptions of the linear regression model.</em>
+**Exercise 2.5**: Make a residuals vs. year violin plot for the interaction model. Comment on how well it matches assumptions of the linear regression model.
 
-## Part 2: Classification and Model Selection
+## Part 3: Classification and Model Selection
 
-Find a dataset on which to try out different classification (or regression) algorithms.  If you'd like, you can use a dataset provided by SKLearn; [more info here](https://scikit-learn.org/stable/datasets/toy_dataset.html). Note that this might be a good time to try out some models from your final project, the world is your oyster here!
+Find a dataset on which to try out different classification (or regression) algorithms.  If you'd like, you can use a dataset provided by SKLearn; [more info here](https://scikit-learn.org/stable/datasets/toy_dataset.html). Note that this might be a good time to try out some models from your final project, *the world is your oyster here!*
 
-Choose *two* of the following algorithms, or feel free to use other ``standard'' supervised learning classifiers or regressors from [SKLearn](https://scikit-learn.org/stable/supervised_learning.html). 
+**Question 3.1** For this dataset clearly explain a model including a the features, a prediction value, and what you hope to show with this model.
+
+**Exercise 3.2** Choose *two* of the following algorithms, or feel free to use other ``standard'' supervised learning classifiers or regressors from [SKLearn](https://scikit-learn.org/stable/supervised_learning.html). 
 * Linear Discriminant Analysis (LDA) (only classification)
 * decision trees,
 * random forests,
@@ -124,7 +126,7 @@ Choose *two* of the following algorithms, or feel free to use other ``standard''
 
 Note: for those algorithms that have hyper-parameters, i.e., all of the above except for LDA, you need to specify in your writeup which model selection procedure you used. Typically this should be with a [Grid Search](https://scikit-learn.org/stable/model_selection.html) over a small set of values.
 
-**Bonus (3 Points)** If you ran 10-fold cross-validation, feel free to run a statistical test such as a paired t-test to further support your performance comparison above.
+**Bonus (5 Points)** Run a 10-fold cross-validation and an appropriate statistical test such as a paired t-test to further support your performance comparison above. Justify your choice of statistical model and the conclusion of your comparison.
 
 ## Submission
 
@@ -134,22 +136,27 @@ All axes in plots should be labeled in an informative manner. Your answers to an
 
 Submit this completed notebook which contains your answers as markdown cells to [Canvas](https://tulane.instructure.com/)
 
-## Grading Rubric
-
+## Grading Rubric (75 Points)
 Note that code that does not work will not be graded and you will receive a 0 for that section.  We reserve the right to deduct points for things like general sloppiness of the notebook, poor labels, unlabeled axes, etc.  You should include markdown cells to break up your notebook and **clearly label** the problems and questions below.
 
 * (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
  * (25 Points) Part 1: *Regression Analysis* 
-   * (5 Points) Exercise 1 and Question 1: Code and comments are present to generate the violin plots and it is analyzed.
-   * (5 Points) Questions 2 - 5: Questions 2 - 5 are discussed and clearly answered.
-   * (5 Points) Exercise 2 and Questions 6 - 7: Code is present for the linear regression model and questions are clearly answered.
-   * (5 Points) Exercise 3 - 4 and Questions 8 - 9: Code is present to create the two residual plots, explanations of questions are provided.
-   * (5 Points) Exercise 5: A scatter plot is present showing the proper groupings.
-* (20 Points) Part 2: *Classification Analysis*
-  * (5 Points) Data and Model: Data is explained along with the target of prediction and why.
-  * (5 Points) Model 1: Code is present for a first model that is validated using an algorithm.
-  * (5 Points) Model 2: Code is present for a second model and relevant validation is done.
-  * (5 Points) Discussion: A markdown cell is clearly labeled with information as to which model is better, along what metric, and why.
+   * (5 Points) Exercise 1.1 and Question 1.2: Code and comments are present to generate the violin plots and it is analyzed.
+   * (5 Points) Questions 1.4, 1.5, and 1.6: Questions are discussed and clearly answered.
+   * (5 Points) Exercise 1.7 and Questions 1.8 and 1.9: Code is present for the linear regression model and questions are clearly answered.
+   * (5 Points) Exercise 1.10, 1.12 and Questions 1.11, 1.13: Code is present to create the two residual plots, explanations of questions are provided.
+   * (5 Points) Exercise 1.14: A scatter plot is present showing the proper groupings.
+* (20 Points) Part 2: *Interaction Terms*
+  * (2.5 Points) Question 2.1: Answer about interaction terms is clear and correct.
+  * (5 Points) Exercise 2.2: Code is present and interaction term is properly implemented.
+  * (5 Points) Question 2.3: Code and analysis is present to understand if parameters are significant.
+  * (5 Points) Question 2.4: Code and answer about life expectancy are clear and correct.
+  * (2.5 Points) Exercise 2.5: Plot is present, comment about linear regression assumptions is correct.
+* (25 Points) Part 3: *Classification Analysis*
+  * (5 Points) Question 3.1: Data is explained along with the target of prediction and why.
+  * (5 Points) Exercise 3.2 Model 1: Code is present for a first model that is validated using an algorithm.
+  * (5 Points) Exercise 3.2 Model 2: Code is present for a second model and relevant validation is done.
+  * (5 Points) Exercise 3.2 Discussion: A markdown cell is clearly labeled with information as to which model is better, along what metric, and why.
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
