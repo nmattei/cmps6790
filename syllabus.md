@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fall 2023 Syllabus
+title: Fall 2024 Syllabus
 subtitle:
 published: true
 ---
@@ -9,10 +9,10 @@ published: true
 
 ## Course Information
 * CMPS 4790/6790 Data Science
-* Fall 2023 Term, Tulane University
-* **Lectures Times:** Tuesday / Thursday, 9:30 - 10:45
-* **Room:** Stanley Thomas Hall ([Building 10](https://admission.tulane.edu/map)), Room 302 
-* **Online:** All lectures will be available and recorded on Zoom, see [Tulane Canvas](https://tulane.instructure.com/) for details.
+* Fall 2024 Term, Tulane University
+* **Lectures Times:** Wednesday, 1800 - 1915
+* **Room:** Online Only.
+* **Online:** All weekly meetings will be in InSpace, see [Tulane Canvas](https://tulane.instructure.com/) for details
 * **Prerequisite Courses:** Officially none, however, we strongly encourage students to have taken one or more computing courses and be familiar with Python, e.g., CMPS 1500/1600 Introduction to Computer Science I/II, CMPS 3160 Introduction to Data Science, or CMPS 6100 Introduction to Computer Science.
 
 ## Website Information
@@ -23,7 +23,7 @@ published: true
 ## Instructor Information
 * **Instructor:** Dr. Nicholas Mattei, <nsmattei@tulane.edu>
 * **Office:** Stanley Thomas Hall ([Building 10](https://admission.tulane.edu/map)), Room 305B 
-* **Office Hours:** **TBD** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/)
+* **Office Hours:** **Mondays 1730 - 1830**, **Tuesdays 1530-1630** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/)
 
 ### Teaching Assistants
 * N/A, no assistants this academic year.
@@ -135,7 +135,7 @@ There will be 3 "mini-projects" assigned over the course of the semester (plus o
 **Note:** Undergraduate students taking this course will be allowed to complete projects (with the exception of Project 0) in groups of exactly size 2.
 
 ### Test 1 and Test 2
-This will be a written, close book, in class exam.  You are allowed one **hand-written** cheat sheet, front and back, 8.5x11 inch paper.  You will be required to turn in this cheat sheet **with** the actual exam and it will be graded for completeness and neatness. Test 2 is cumulative.  This semester both exams will take place in person. **You must earn at least a 60% average between the two exams to pass the course.**
+This will be a written, close book, in class exam.  You are allowed one **hand-written** study sheet, front and back, 8.5x11 inch paper.  You will be required to turn in this sheet **with** the actual exam and it will be graded for completeness and neatness. Test 2 is cumulative.  This semester both exams will take place in person. **You must earn at least a 60% average between the two exams to pass the course.**
 
 ### Final Project
 In the interest of building students' public portfolios, and in the spirit of "learning by doing", students will create a self-contained online tutorial to be posted publicly and a ~7-minute presentation in class as well as two "pitch day" project updates. **This tutorial can be created individually or in a small group (max 2 people).** This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data.  We will have several milestones associated with the final project:
@@ -148,7 +148,7 @@ In the interest of building students' public portfolios, and in the spirit of "l
 **A complete version of the assignment as well as all the past assignments can be found at the [Final Tutorial Page](/_projects/FinalTutorial/FinalTutorial.md).**
 
 ### Additional Work for Graduate Students
-Graduate students who enroll in this course will be required to complete their final project/tutorial as an individual.
+Graduate students who enroll in this course will be required to complete their projects and their final project/tutorial as an individual.
 
 ## Policies Related to Turning in Work
 * All work will be turned in on [Canvas](https://tulane.instructure.com/).  All work will either be distributed via [Canvas](https://tulane.instructure.com/) or in the case of Labs and examples, via the [CMPS 6790 Github](https://github.com/nmattei/cmps6790).
