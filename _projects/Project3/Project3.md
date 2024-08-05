@@ -10,7 +10,7 @@ published: true
 * **Posted:** November 6, 2023
 * **Last Revision:** July 11, 2024
 
-For this project you will practice and experiment linear regression using data from [gapminder.org]("http://gapminder.org"). We recommend spending a little time looking at material there, it is quite an informative site.
+For this project you will practice and experiment linear regression using data from [gapminder.org](http://gapminder.org). We recommend spending a little time looking at material there, it is quite an informative site.
 
 We will use a subset of data provided by gapminder provided by [Jennifer Bryan](https://jennybryan.org/) described in its [github page](https://github.com/jennybc/gapminder)
 
