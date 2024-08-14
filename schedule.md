@@ -22,4 +22,4 @@ published: true
 
 <!-- <iframe style="width: 100%; height: 5000px; border: none" src="https://docs.google.com/document/d/e/2PACX-1vSIji6SkXvzDP7deVpWXE96dXUGngwEDr4Lnwn0Ga8VsyaIcEatPES9pe_C7vK63TzHW4SXR7PLNlbk/pub?embedded=true"></iframe> -->
 
-<iframe style="width: 100%; height: 5000px; border: none" src="https://docs.google.com/spreadsheets/d/1aH9J6tkA8tsDPPIxDBWK-FEGZwJF9u_daRGR5AO-gBE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe style="width: 125%; height: 5000px; border: none" src="https://docs.google.com/spreadsheets/d/1aH9J6tkA8tsDPPIxDBWK-FEGZwJF9u_daRGR5AO-gBE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
