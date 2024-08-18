@@ -18,15 +18,20 @@ published: true
 * **Webpage:** [https://nmattei.github.io/cmps6790/](https://nmattei.github.io/cmps6790/)
 * **GitHub:** [https://github.com/nmattei/cmps6790](https://github.com/nmattei/cmps6790)
 * **Canvas Page:** [Tulane Canvas](https://tulane.instructure.com/)
+* **EdStem For Questions:** [CMPS 6790 on EdStem](https://edstem.org/us/courses/62193/discussion/)
 
 ## Instructor Information
 * **Instructor:** Dr. Nicholas Mattei, <nsmattei@tulane.edu>
 * **Office:** Stanley Thomas Hall ([Building 10](https://admission.tulane.edu/map)), Room 305B 
-* **Office Hours:** **Mondays 1730 - 1830**, **Tuesdays 1530-1630** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/)
+* **Office Hours:** You can come by my office or visit me at the Zoom Links below. Note that if you are in the waiting room on Zoom it means I am talking to someone else, please don't email me.
+  * **Mondays 1730 - 1830** [Zoom Link for Monday Only!](https://tulane.zoom.us/j/91431647656)
+  * **Tuesdays 1530 - 1630** [Zoom Link for Tuesday Only!](https://tulane.zoom.us/j/92164499494)
 
 ### Teaching Assistants
+* **Course Assistant:** Harper Lyon, <hlyon@tulane.edu>
+* **Office:** TBD
+* **Office Hours:** TBD
 
-*TBD*.
 
 The instructor and TAs have office hours and are available by appointment.  Please reach out to us directly to setup extra time if you need more support during the semester. If you need help please check the [discussion board on Canvas!](https://tulane.instructure.com/). We check it regularly to answer common questions on projects and homeworks.  The solution to your question might already be there!
 
