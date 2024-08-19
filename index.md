@@ -29,8 +29,10 @@ published: true
 
 ### Teaching Assistants
 * **Course Assistant:** Harper Lyon, <hlyon@tulane.edu>
-* **Office:** TBD
-* **Office Hours:** TBD
+* **Office:** Stanley Thomas Hall ([Building 10](https://admission.tulane.edu/map)), Room 309
+* **Office Hours:** You can come by my office or visit me at the Zoom Links below. Note that if you are in the waiting room on Zoom it means I am talking to someone else, please don't email me.
+  * **Tuesdays 1700 - 1900** [Zoom Link!](https://tulane.zoom.us/j/99348809166)
+  * **Thursdays 1800 - 2000** [Zoom Link!](https://tulane.zoom.us/j/99348809166)
 
 
 The instructor and TAs have office hours and are available by appointment.  Please reach out to us directly to setup extra time if you need more support during the semester. If you need help please check the [discussion board on Canvas!](https://tulane.instructure.com/). We check it regularly to answer common questions on projects and homeworks.  The solution to your question might already be there!
