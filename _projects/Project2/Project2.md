@@ -209,8 +209,8 @@ Submit this completed notebook which contains your answers as markdown cells to 
 Note that code that does not work will not be graded and you will receive a 0 for that section.  We reserve the right to deduct points for things like general sloppiness of the notebook, poor labels, unlabeled axes, etc.  You should include markdown cells to break up your notebook and **clearly label** the problems and questions below.
 
 * (5 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
-* (10 Points) Part 1: *Wrangling*
-  * (5 Points) Problem 1.1: You used a single SQL query and display the correct dataset.
+* (15 Points) Part 1: *Wrangling*
+  * (10 Points) Problem 1.1: You used a single SQL query and display the correct dataset.
   * (5 Points) Explanation 1.2: Discussion of how missing data is dealt with is present.
  * (25 Points) Part 2: *Exploratory Data Analysis* 
    * (5 Points) Problem 2.1: You have produced the plot to show the distribution of payrolls across time.
