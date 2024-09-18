@@ -146,13 +146,13 @@ Note that code that does not work will not be graded and you will receive a 0 fo
    * (5 Points) Exercise 1.7 and Questions 1.8 and 1.9: Code is present for the linear regression model and questions are clearly answered.
    * (5 Points) Exercise 1.10, 1.12 and Questions 1.11, 1.13: Code is present to create the two residual plots, explanations of questions are provided.
    * (5 Points) Exercise 1.14: A scatter plot is present showing the proper groupings.
-* (20 Points) Part 2: *Interaction Terms*
-  * (2.5 Points) Question 2.1: Answer about interaction terms is clear and correct.
+* (25 Points) Part 2: *Interaction Terms*
+  * (5 Points) Question 2.1: Answer about interaction terms is clear and correct.
   * (5 Points) Exercise 2.2: Code is present and interaction term is properly implemented.
   * (5 Points) Question 2.3: Code and analysis is present to understand if parameters are significant.
   * (5 Points) Question 2.4: Code and answer about life expectancy are clear and correct.
-  * (2.5 Points) Exercise 2.5: Plot is present, comment about linear regression assumptions is correct.
-* (25 Points) Part 3: *Classification Analysis*
+  * (5 Points) Exercise 2.5: Plot is present, comment about linear regression assumptions is correct.
+* (20 Points) Part 3: *Classification Analysis*
   * (5 Points) Question 3.1: Data is explained along with the target of prediction and why.
   * (5 Points) Exercise 3.2 Model 1: Code is present for a first model that is validated using an algorithm.
   * (5 Points) Exercise 3.2 Model 2: Code is present for a second model and relevant validation is done.
