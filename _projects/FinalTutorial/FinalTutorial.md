@@ -167,7 +167,23 @@ Here are some past short decks that are very good:
 
 ### Schedule
 
-**TBD**
+| **Name**                               | **Topic**                                                                            | **Website**                                    |
+|----------------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------|
+| Baris Alan                             | Migration Flows to Europe                                                            | <https://barisalan00.github.io/>
+| Robinne Ponty and Carlos Berreteaga    | From Data to Decisions                                                               | <https://cberreteagarponty.github.io/>           |
+| JoQuise Bridges                        | TBD                                                                                  | <https://bjoquise.github.io/>                    |
+| Wesnahika Charles                      | Are public parks Accessible in Palm Beach County?                                    | <https://nahika07.github.io/>                    |
+| Evan Dartez                            | L1 expression plays in neurodegenerative diseases                                    | N/A                                            |
+| Trevor Doucet and Andrew Selius        | MLB Pitching Analysis                                                                | <https://trevordoucet.github.io/baseball/>       |
+| Delery Harrison                        | NBA Performance Insights                                                             | <https://delery5.github.io/>                     |
+| Gavin LeBlanc                          | TBD                                                                                  | <https://leblanc-gavin.github.io/>               |
+| Jiarui Li                              | T Cell Receptor Modeling Based on VDJdb                                              | <https://www.jiarui-li.com/CMPS6790-Milestone1/> |
+| Keith J. Mitchell                      | Fraud or FIFA?                                                                       | <https://keithmitchell9.github.io/>              |
+| H. Jacob Schenck                       | US Cost of Living, Inflation, and Salary comparison                                  | <https://hjschenck.github.io/>                   |
+| Will Silver Wagman                     | Exploring the Emotional Evolution of The Office: A Sentiment Analysis Across Seasons | <https://will5206.github.io/>                    |
+| Zhihe Tu                               | LA Crime Data                                                                        | <https://ayudrea.github.io/>                     |
+| Ryan Tang and Santiago von Straussburg | Fraud Detection Project                                                              | <https://ryantangmj.github.io/>                  |
+| Weike Zhang                            | QS World University Rankings Analysis                                                | <https://weike2001.github.io/ds/>                |
 
 
 **Note:** You must upload your slides through [Canvas](https://tulane.instructure.com/) **at least 2 hours before class time on the day of your presentation**.  Failure to do this will result in a minimum of all points lost for *Professionalism*. You will be required to be in person to present unless you have made other arrangements with me. I will compile all slides into one deck for the individual presentation days.
