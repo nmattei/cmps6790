@@ -128,7 +128,7 @@ Write code to discretize year into five time periods (you can use [pandas.cut](h
 
 Add a regression line (using, e.g., [SciPy linregress](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.linregress.html)) in each of the 5 scatter plot to ease interpretation.
 
-Label each point with the team or franchise [using something like this](https://stackoverflow.com/questions/15910019/annotate-data-points-while-plotting-from-pandas-dataframe/15911372#15911372).  You may need to read over the documentation for the [annotate function](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.axes.Axes.annotate.html).
+Label each point with the team or franchise [using something like this](https://stackoverflow.com/questions/15910019/annotate-data-points-while-plotting-from-pandas-dataframe/15911372#15911372).  You may need to read over the documentation for the [annotate function](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.annotate.html).
 
 **Hint:** To do this you may need to extract the axis object from the plotting call and add things to it as we did in Lab 5.
 
