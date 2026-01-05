@@ -170,15 +170,15 @@ Here are some past short decks that are very good:
 | **Name**                               | **Topic**                                                                            | **Website**                                    |
 |----------------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------|
 | Baris Alan                             | Migration Flows to Europe                                                            | <https://barisalan00.github.io/>
-| Robinne Ponty and Carlos Berreteaga    | From Data to Decisions                                                               | <https://cberreteagarponty.github.io/>           |
-| JoQuise Bridges                        | TBD                                                                                  | <https://bjoquise.github.io/>                    |
+| Robinne Ponty and Carlos Berreteaga    | Analyzing the Relationship of Political Party in Power on United States Economics    | <https://rponty.github.io/>           |
+| JoQuise Bridges                        | NBA Shot Selection Analysis                                                          | <https://bjoquise.github.io/>                    |
 | Wesnahika Charles                      | Are public parks Accessible in Palm Beach County?                                    | <https://nahika07.github.io/>                    |
-| Evan Dartez                            | L1 expression plays in neurodegenerative diseases                                    | N/A                                            |
+| Evan Dartez                            | Exploring the role L1 retrotransposon expression plays in the outcomes of Cancer Patients    | <https://esdartez.github.io/>                                            |
 | Trevor Doucet and Andrew Selius        | MLB Pitching Analysis                                                                | <https://trevordoucet.github.io/baseball/>       |
-| Delery Harrison                        | NBA Performance Insights                                                             | <https://delery5.github.io/>                     |
-| Gavin LeBlanc                          | TBD                                                                                  | <https://leblanc-gavin.github.io/>               |
+| Delery Harrison                        | NBA Performance Insights (2021)                                                      | <https://delery5.github.io/>                     |
+| Gavin LeBlanc                          | COVID and Geography                                                                  | <https://leblanc-gavin.github.io/>               |
 | Jiarui Li                              | T Cell Receptor Modeling Based on VDJdb                                              | <https://www.jiarui-li.com/CMPS6790-Milestone1/> |
-| Keith J. Mitchell                      | Fraud or FIFA?                                                                       | <https://keithmitchell9.github.io/>              |
+| Keith J. Mitchell                      | FIFA Ratings - Explored and Explained                                                | <https://keithmitchell9.github.io/>              |
 | H. Jacob Schenck                       | US Cost of Living, Inflation, and Salary comparison                                  | <https://hjschenck.github.io/>                   |
 | Will Silver Wagman                     | Exploring the Emotional Evolution of The Office: A Sentiment Analysis Across Seasons | <https://will5206.github.io/>                    |
 | Zhihe Tu                               | LA Crime Data                                                                        | <https://ayudrea.github.io/>                     |
