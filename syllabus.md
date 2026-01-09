@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fall 2024 Syllabus
+title: Spring 2026 Syllabus
 subtitle:
 published: true
 ---
