@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fall 2023 Schedule
+title: Spring 2026 Schedule
 published: true
 ---
 
@@ -15,4 +15,4 @@ published: true
 
 * While we make every effort to keep these tables up to date, **if there is ever a conflict on due date, the assignment due date in [Canvas](https://tulane.instructure.com/) supersedes anything posted here.**
 
-<iframe style="width: 120%; height: 5000px; border: none" src="https://docs.google.com/spreadsheets/d/1aH9J6tkA8tsDPPIxDBWK-FEGZwJF9u_daRGR5AO-gBE/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe style="width: 120%; height: 5000px; border: none" src="https://docs.google.com/spreadsheets/d/1DrJEUDuw-BIpGI4ow8ddSJ6AKev_arrvOsFDzcaYGU4/edit?usp=sharing"></iframe>
