@@ -231,6 +231,8 @@ Write a function that finds the best matching row in the NASA data for each of t
 
 **Hint: You may not end up with all the ranks!**
 
+**Hint: For the SpaceWeatherLive data, look carefully at the region numbers! Particularly those starting with a zero digit. Go to the website, check out one of those regions!**
+
 In your submission, include an explanation of how you are defining best matching rows across the two datasets in addition to the code used to find the best matches. Detail what works, what doesn't, and the logic of your matching function. **Note:** Yes, I know [TheFuzz](https://github.com/seatgeek/thefuzz) exists, no you aren't allowed to use it. You must create and articulate a function for this, not rely on a library you don't understand.
 
 **Use your function to add a new column to the NASA dataset indicating its rank according to SpaceWeatherLive, if it appears in that dataset.**

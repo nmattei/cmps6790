@@ -10,9 +10,9 @@ published: true
 ## Course Information
 * CMPS 4790/6790 Data Science
 * Fall 2024 Term, Tulane University
-* **Lectures Times:** Wednesday, 1800 - 1915
+* **Lectures Times:** Tuesday, 1800 - 1915
 * **Room:** Online Only.
-* **Online:** All weekly meetings will be in InSpace, see [Tulane Canvas](https://tulane.instructure.com/) for details
+* **Online:** All weekly meetings will be over Zoom, see [Tulane Canvas](https://tulane.instructure.com/) for details
 * **Prerequisite Courses:** Officially none, however, we strongly encourage students to have taken one or more computing courses and be familiar with Python, e.g., CMPS 1500/1600 Introduction to Computer Science I/II, CMPS 3160 Introduction to Data Science, or CMPS 6100 Introduction to Computer Science.
 
 ## Website Information
@@ -21,9 +21,10 @@ published: true
 * **Canvas Page:** [Tulane Canvas](https://tulane.instructure.com/)
 
 ## Instructor Information
-* **Instructor:** Dr. Nicholas Mattei, <nsmattei@tulane.edu>
-* **Office:** Stanley Thomas Hall ([Building 10](https://admission.tulane.edu/map)), Room 305B 
-* **Office Hours:** **Mondays 1730 - 1830**, **Tuesdays 1530-1630** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/)
+* **Instructor:** Dr. Rebecca Faust, <rfaust1@tulane.edu>
+* **Office:** Paul Hall ([Building 16](https://admission.tulane.edu/map)), Room 306 
+* **Office Hours:** **Mondays 1500 - 1800**, **Tuesdays 1530-1630** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/).
+Office hours will be held over zoom. If you are local and want to meet in person during my office hours, please let me know ahead of time.
 
 ### Teaching Assistants
 * N/A, no assistants this academic year.
@@ -104,9 +105,9 @@ This course will consist of seven distinct grading areas.  Note that all point v
 | Category               | Points | Percentage |      Group Percentage |
 |------------------------|--------|------------|----------------------:|
 | In Class / Attendance  | 30     | 3.53%      |                       |
-| 5 Labs                 | 50     | 5.88%      |                       |
+| 5 Labs                 | 50     | 5.65%      |                       |
 | 13 Zybooks Assignments | 65     | 7.65%      | Class, Readings, Labs |
-| 5 Discussions          | 25     | 2.94%      |                20.00% |
+| 5 Discussions          | 25     | 3.18%      |                20.00% |
 | Project 0              | 25     | 2.94%      |                       |
 | Project 1              | 75     | 8.82%      |                       |
 | Project 2              | 75     | 8.82%      |              Projects |
