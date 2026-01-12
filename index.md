@@ -18,14 +18,14 @@ published: true
 * **Webpage:** [https://nmattei.github.io/cmps6790/](https://nmattei.github.io/cmps6790/)
 * **GitHub:** [https://github.com/nmattei/cmps6790](https://github.com/nmattei/cmps6790)
 * **Canvas Page:** [Tulane Canvas](https://tulane.instructure.com/)
-* **EdStem For Questions:** [CMPS 6790 on EdStem](https://edstem.org/us/courses/62193/discussion/)
+
 
 ## Instructor Information
 * **Instructor:** Dr. Rebecca Faust, <rfaust1@tulane.edu>
 * **Office:** Paul Hall ([Building 16](https://admission.tulane.edu/map)), Room 306  
 * **Office Hours:** Office hours will be held over zoom. If you are local and want to meet in person during my office hours, please let me know ahead of time.Note that if you are in the waiting room on Zoom it means I am talking to someone else, please don't email me.
-  * **Mondays 1700 - 1800** [Zoom Link for Monday Only!](https://tulane.zoom.us/j/91431647656)
-  * **Tuesdays 1530 - 1630** [Zoom Link for Tuesday Only!](https://tulane.zoom.us/j/92164499494)
+  * **Mondays 1700 - 1800** [Zoom Link for Monday Only!](https://tulane.zoom.us/j/91941918706)
+  * **Tuesdays 1530 - 1630** [Zoom Link for Tuesday Only!](https://tulane.zoom.us/j/95889762128)
 
 ### Teaching Assistants
 * N/A, no assistants this academic year.
