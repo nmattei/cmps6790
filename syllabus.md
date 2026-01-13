@@ -123,7 +123,7 @@ This course will consist of seven distinct grading areas.  Note that all point v
 An important aspect of this course is becoming a better coder. Hence all coding assignments will consist of a *Professionalism* component. One handy resource for this is [Arie’s Coding Guide](https://nmattei.github.io/cmps3140/codingguide). Note that this was written for Intro. to AI CMPS 3140 but many of the same issues apply to this course.
 
 ### In Class Activities, Participation, and Attendance
-Attendance will be monitored through an in-class survey (nearly) every day of class.  You are required to fill out this survey every day, synchronously in class unless you contact the instructor ahead of time to make alternative arrangements.
+Attendance will be monitored through TopHat (nearly) every day of class.  You are required to fill out this survey every day, synchronously in class unless you contact the instructor ahead of time to make alternative arrangements.
 
 Throughout the semester we will regularly complete short in class exercises such as brainstorming activities, think-pair-share, pre/post questions, and short answer writing. As we are online sometimes this may include posting things on the discussion board or answering a short quiz in Canvas on additional readings.  This may also include presenting/explaining answers to labs in class.
 
@@ -153,13 +153,13 @@ Graduate students who enroll in this course will be required to complete their p
 
 ## Policies Related to Turning in Work
 * All work will be turned in on [Canvas](https://tulane.instructure.com/).  All work will either be distributed via [Canvas](https://tulane.instructure.com/) or in the case of Labs and examples, via the [CMPS 6790 Github](https://github.com/nmattei/cmps6790).
-* All work will be due **at class time on the day assigned**.  This means turning things in during or after class is considered late.  This will be consistent throughout the semester.
+* Readings, Discussions, and Labs will be due **at class time on the day assigned**.  This means turning things in during or after class is considered late. Projects will be due **at 11:59pm on the day assigned**. This will be consistent throughout the semester.
 
 ### Late Work Policy
 All work must be turned in on time unless explicit consent for outstanding circumstances is given beforehand (or in the case of illness, with a documented absence after).  **Any late work without prior authorization, or a late token in the case of projects, will not be accepted and count as a 0.**
 
 ### Late Tokens
-At the start of this semester you each are holding **3 late tokens** which can be redeemed at any time for **projects, labs, or readings only, they may not be used for milestones**.  Each token is worth one additional day, to use at your discretion.  These tokens have no cash value but are worth 0.5% of your total grade at the end of the semester.  Note that you cannot use a late token if lab solutions have already been presented in class.
+At the start of this semester you each are holding **3 late tokens** which can be redeemed at any time for **projects, labs, or readings only, they may not be used for milestones**.  Each token is worth one additional day, to use at your discretion.   Note that you cannot use a late token if lab solutions have already been presented in class.
 
 ### Final Grade Policy
 The weighted average will determine your letter grade roughly as follows, +/- grades will be given for borderline cases.
