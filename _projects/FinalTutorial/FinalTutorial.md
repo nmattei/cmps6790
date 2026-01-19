@@ -82,7 +82,7 @@ In order to make your webpage open up the notebook and make sure everything is a
 jupyter nbconvert --to html /PATH/TO/YOUR/NOTEBOOKFILE.ipynb
 ```
 
-You will need to replace the path to your notebook file with the path to your actual notebook file. Once you issue that command you will see a `NOTEBOOKFILE.html` file in the same directory that your notebook is in. You will need to rename this file to `index.html` and upload it to the repo that you created on github.io.
+You will need to replace the path to your notebook file with the path to your actual notebook file. Once you issue that command you will see a `NOTEBOOKFILE.html` file in the same directory that your notebook is in. You will need to rename this file to `index.html` and upload it to the repo that you created on github.io. Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like!
 
  <!-- go to `File >> Download As >>` and download the notebook as HTML. This will save the HTML files to your disk. You will then need to rename this to index.html and upload it into your github.io page. Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like! -->
 
