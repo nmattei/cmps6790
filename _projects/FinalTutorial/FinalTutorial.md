@@ -12,7 +12,7 @@ published: true
 
 In this course you will be responsible for generating a tutorial that will walk users through the entire data science pipeline: data curation, parsing, and management; exploratory data analysis; model building as either hypothesis testing and/or machine learning; and then the curation of a message or messages covering insights learned during the tutorial. Students may choose an application area and dataset(s) that are of interest to them; please feel free to be creative about this!
 
-In the interest of building students' public portfolios, and in the spirit of "learning by doing", students will create a self-contained online tutorial to be posted publicly and a 5-8 minute presentation in class. At each Milestone students will be required to present a one slide "pitch" of their progress during a pitch day.
+In the interest of building students' public portfolios, and in the spirit of "learning by doing", students will create a self-contained online tutorial to be posted publicly and a 5-8 minute presentation in class. At  Milestone 2 students will be required to present a one slide "pitch" of their progress during a pitch day.
 
 **This tutorial may be completed in pairs or as a solo assignment, but after Milestone 1 groups are locked**. This assignment will be a publicly-accessible website that provides an end-to-end walk-through of identifying and scraping a specific data source, performing some exploratory analysis, and providing some sort of managerial or operational insight from that data. We will have several milestones associated with the final project including the following. These are each discussed below in more detail.
 
@@ -71,11 +71,20 @@ GitHub provides a service called Pages <https://pages.github.com/> that provides
 
 1. Create a GitHub account (or use the one you already have) with your username `username`. Note that if you want to make it a repository specific webpage instead of your userpage then please go ahead.
 2. Create a git repository titled `username.github.io`; make sure `username` is the same as whatever you chose for your global GitHub account.
-3. Create a project within this repository. This is where you’ll dump your iPython Notebook file and an HTML export of that Notebook file.
+3. Create your project files within this repository. This is where you’ll dump your iPython Notebook file and an HTML export of that Notebook file.
 
 These instructions are also given directly on the front page of <https://pages.github.com/>; following those instructions should be fine!
 
-In order to make your webpage open up the notebook and make sure everything is as you like it (cells and outputs are showing, no error messages, etc.). Then go to `File >> Download As >>` and download the notebook as HTML. This will save the HTML files to your disk. You will then need to rename this to index.html and upload it into your github.io page. Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like!
+In order to make your webpage open up the notebook and make sure everything is as you like it (cells and outputs are showing, no error messages, etc.). Then, at the end of your notebook, run the following command:
+
+```
+%%shell
+jupyter nbconvert --to html /PATH/TO/YOUR/NOTEBOOKFILE.ipynb
+```
+
+You will need to replace the path to your notebook file with the path to your actual notebook file. Once you issue that command you will see a `NOTEBOOKFILE.html` file in the same directory that your notebook is in. You will need to rename this file to `index.html` and upload it to the repo that you created on github.io.
+
+ <!-- go to `File >> Download As >>` and download the notebook as HTML. This will save the HTML files to your disk. You will then need to rename this to index.html and upload it into your github.io page. Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like! -->
 
 **Note:** If you want to use your root `username.github.io` for a personal website or other thing, then please go ahead and hang the project Github page off the repository you create.
 
@@ -113,7 +122,7 @@ At the **end** of your notebook you should outline at least two ideas of what mo
 
 You should submit the notebook through [Canvas](https://tulane.instructure.com/).  The first cell of your notebook in the markdown **must be a hyperlink in your notebook to the webpage at github.io, and the webpage must be publicly readable on the internet (i.e, live)**.  That is: the first cell of your notebook must be a markdown cell with a hyperlink to the generated webpage up at `yourname.github.io`.  If this is not correct you will lose points.
 
-For the Pitch Day 2 you should follow the link on the [Canvas](https://tulane.instructure.com/) assignment and add a slide to the Google Slides deck which clearly includes your name, link to your website, the datasets you hope to use, and a clear statement of a proposed model and any early findings. Do not re-order the slides, we will go in reverse order from last pitch day.
+For the Pitch Day you should follow the link on the [Canvas](https://tulane.instructure.com/) assignment and add a slide to the Google Slides deck which clearly includes your name, link to your website, the datasets you hope to use, and a clear statement of a proposed model and any early findings. Do not re-order the slides.
 
 *If you do this in a group, only one student per group needs to upload the notebook to canvas, but both names should be clearly at the beginning of the notebook.*
 
