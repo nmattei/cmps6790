@@ -23,7 +23,7 @@ published: true
 ## Instructor Information
 * **Instructor:** Dr. Rebecca Faust, <rfaust1@tulane.edu>
 * **Office:** Paul Hall ([Building 16](https://admission.tulane.edu/map)), Room 306 
-* **Office Hours:** **Mondays 1500 - 1800**, **Tuesdays 1530-1630** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/).
+* **Office Hours:** **Mondays 1700 - 1800**, **Tuesdays 1530-1630** and by and by appointment, See Link in [Tulane Canvas](https://tulane.instructure.com/).
 Office hours will be held over zoom. If you are local and want to meet in person during my office hours, please let me know ahead of time.
 
 ### Teaching Assistants
