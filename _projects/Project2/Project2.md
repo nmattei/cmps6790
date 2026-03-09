@@ -201,7 +201,10 @@ What can you learn from this plot compared to the set of plots you looked at in 
 
 Prepare a Jupyter notebook that includes for each Problem: (a) code to carry out the step discussed, (b) output showing the result of your code, and (c) a short prose description in *markdown* of how your code works. Remember, the writeup you are preparing is intended to communicate your data analysis effectively. Thoughtlessly showing large amounts of output in your writeup defeats that purpose and will lose points.
 
-All axes in plots should be labeled in an informative manner. Your answers to any question that refers to a plot should include both (a) a text description of your plot, and (b) a sentence or two of interpretation as it relates to the question asked.
+
+For each Question, include a *markdown* cell with discussion to address the asked question. Your answers to any question that refers to a plot should include both (a) a text description of your plot, and (b) a sentence or two of interpretation as it relates to the question asked.
+
+All axes in plots should be labeled in an informative manner. Poorly labeled plots and plots missing labels entirely (including titles) will lose points. 
 
 Submit this completed notebook which contains your answers as markdown cells to [Canvas](https://tulane.instructure.com/)
 
@@ -220,11 +223,11 @@ Note that code that does not work will not be graded and you will receive a 0 fo
    * (5 Points) Question 2.5: Markdown cell explains results for Question 2.2 about trends over time.
 * (30 Points) Part 3: *Data Transformations*
   * (5 Points) Problem 3.1: Code is present to achieve standardized payroll and is reasonable and correct.
-  * (5 Points) Problem 3.2: Plots are present that compare the old and new payroll variables.
-  * (5 Points) Question 3.3: Markdown cell addresses differences between Problem 2.4 and Problem 2.6.
-  * (5 Points) Problem 7: Plot and regression line are present and code is correct and reasonable.
-  * (5 Points) Problem 8: Code and plot are present and correct to measure the spending efficiency.
-  * (5 Points) Question 4: Markdown cell is present that discusses the findings, it is reasonable and correct.
+  * (5 Points) Problem 3.2: Plots are present that re-create 2.4 with the new payroll variables.
+  * (5 Points) Question 3.3: Markdown cell addresses differences between Problem 2.4 and Problem 3.2.
+  * (5 Points) Problem 3.4: Plot and regression line are present and code is correct and reasonable.
+  * (5 Points) Problem 3.5: Code and plot are present and correct to measure the spending efficiency.
+  * (5 Points) Question 3.6: Markdown cell is present that discusses the findings, it is reasonable and correct.
 
 | Full    |    Good |  Okay |   Lacking   |   Poor  | No Marks |
 | : ---- :| : ---- :| : ---- :| : ---- :| : ---- :| : ---- : |
