@@ -60,6 +60,7 @@ A slightly different way of making the same plot is looking at the distribution 
 This type of plot is called a <em>violin plot</em>, and it displays the distribution of the variable in the y-axis for each value of the variable in the x-axis. (It is okay to use other plotting libraries and tools to create this plot, and others throughout the assignment.)
 
 Note that in order for the example code above, you will have to wrangle the data using Pandas. The way I did it was to create an array for each year, storing the Life Expectancy values for that year, then collected those arrays into a list: `life_exp_per_year`. It's not the only way of doing it, but it's how I first thought of it.
+
 **Exercise 1.3**: Make a violin plot as decribed above. 
 
 
